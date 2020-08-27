@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>问题 on 阳某人每天都在干些啥？？？</title>
+    <link>https://yaxun-yang.github.io/tags/%E9%97%AE%E9%A2%98/</link>
+    <description>Recent content in 问题 on 阳某人每天都在干些啥？？？</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>yyx</copyright>
+    <lastBuildDate>Sat, 14 Mar 2020 00:15:41 +0800</lastBuildDate>
+    
+	<atom:link href="https://yaxun-yang.github.io/tags/%E9%97%AE%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>一些现象和问题</title>
+      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E4%B8%80%E4%BA%9B%E7%8E%B0%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Sat, 14 Mar 2020 00:15:41 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E4%B8%80%E4%BA%9B%E7%8E%B0%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98/</guid>
+      <description>  使用FDM下载的时候，同时下载多个软件，并设置优先级，那么优先级底的后加入的下载速度快，先加入的优先级高的下载速度反而慢，并且下载少数几个文件时，下载速度慢。（改用aria2了，这个问题不管啦）
+  在家里网速实在过慢了，怀疑被占用了宽带或者是因为win10不停的在下载更新？
+  </description>
+    </item>
+    
+  </channel>
+</rss>

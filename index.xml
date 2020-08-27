@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>阳某人每天都在干些啥？？？</title>
+    <link>https://yaxun-yang.github.io/</link>
+    <description>Recent content on 阳某人每天都在干些啥？？？</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>yyx</copyright>
+    <lastBuildDate>Mon, 10 Aug 2020 22:38:26 +0800</lastBuildDate>
+    
+	<atom:link href="https://yaxun-yang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adoble Acrobat Pro DC 破解</title>
+      <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/adoble-acrobat-pro-dc-%E7%A0%B4%E8%A7%A3/</link>
+      <pubDate>Mon, 10 Aug 2020 22:38:26 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/adoble-acrobat-pro-dc-%E7%A0%B4%E8%A7%A3/</guid>
+      <description> 自行下载adoble acrobat pro DC注意修改默认下载路径 将路径Acrobat DC/Acrobat/amtlib.dll替换为网盘中分享的文件 网盘地址： 链接：https://pan.baidu.com/s/1Ya4-yG0V62SsRDS-gQww7Q 提取码：ho27  </description>
+    </item>
+    
+    <item>
+      <title>Windows10 Npm 大量报错</title>
+      <link>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99/</link>
+      <pubDate>Wed, 17 Jun 2020 15:57:17 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99/</guid>
+      <description>重装系统解决90%的电脑问题，那么重装npm就解决90%的前端前端环境问题啦 在win10中是这个路径：
+C:\Users\87911\AppData\Roaming 删除npm和npm-cache 然后重装全局需要的组件 万事大吉，yeah~</description>
+    </item>
+    
+    <item>
+      <title>关于Intellj IDEA 的配置</title>
+      <link>https://yaxun-yang.github.io/java-web/%E5%85%B3%E4%BA%8Eintellj-idea-%E7%9A%84%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 15 Jun 2020 15:02:17 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/java-web/%E5%85%B3%E4%BA%8Eintellj-idea-%E7%9A%84%E9%85%8D%E7%BD%AE/</guid>
+      <description>搜素不到任何插件  File -&amp;gt; Setting -&amp;gt; Appearance &amp;amp; Behavior -&amp;gt; System Settings -&amp;gt; HTTP Proxy 选择Auto-detect-proxy settings Updates Check Now  添加 plugin repositore File -&amp;gt; Setting -&amp;gt; Plugins-&amp;gt;Browse repositories</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot &#43; Mybatis&#43;Vue 初始化配置</title>
+      <link>https://yaxun-yang.github.io/java-web/spring-boot-%E5%88%9D%E5%A7%8B%E5%8C%96%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Sun, 14 Jun 2020 15:43:47 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/java-web/spring-boot-%E5%88%9D%E5%A7%8B%E5%8C%96%E9%85%8D%E7%BD%AE/</guid>
+      <description>新建项目   new Project -&amp;gt; Spring Initializr(保证 SDK 1.8+) dependencies 选择： Developer Tools:Spring Boot DevTools； 热部署 Web:Spring Web； web相关 Template Engines: Thymeleaf ；模板 SQL: MyBatis Framework;MyBatis 数据库框架 MySQL Driver； MySQL 驱动  数据库导入 在application.properties中写入配置  package org.csu.mypetstore; import org.mybatis.spring.annotation.MapperScan; import org.springframework.boot.SpringApplication; import org.springframework.boot.autoconfigure.SpringBootApplication; import org.springframework.web.bind.annotation.CrossOrigin; @SpringBootApplication @MapperScan(&amp;quot;org.csu.mypetstore.persistence&amp;quot;) @CrossOrigin //表示允许跨域访问 public class MypetstoreApplication { public static void main(String[] args) { SpringApplication.run(MypetstoreApplication.class, args); } } 在src.main.java文件夹下建立controller、domain、persistence、service、more五个子文件夹 根据配置在resources文件夹下新建mapper目录将所用*Mapper.xml文件都放在此文件夹下 *Mapper.xml文件示例  &amp;lt;?xml version=&amp;quot;1.</description>
+    </item>
+    
+    <item>
+      <title>一些可爱的歌会让我瞎想</title>
+      <link>https://yaxun-yang.github.io/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/%E4%B8%80%E4%BA%9B%E5%8F%AF%E7%88%B1%E7%9A%84%E6%AD%8C%E4%BC%9A%E8%AE%A9%E6%88%91%E7%9E%8E%E6%83%B3/</link>
+      <pubDate>Sat, 25 Apr 2020 23:07:50 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/%E4%B8%80%E4%BA%9B%E5%8F%AF%E7%88%B1%E7%9A%84%E6%AD%8C%E4%BC%9A%E8%AE%A9%E6%88%91%E7%9E%8E%E6%83%B3/</guid>
+      <description>(I Said My Pajamas (And Put On My Prayers))[http://music.163.com/song?id=17476743&amp;amp;userid=1514195161] 我想 在很多很多很多年之后 当我遇见了心动 会在某个晚上告诉所有人 “我到了家，感觉很棒 我爬上了门， 关上了楼梯 放出了衣服，挂起了洗澡水 跑走了闹钟，给猫上发条 因为 你和我说了晚安”</description>
+    </item>
+    
+    <item>
+      <title>囫囵后感</title>
+      <link>https://yaxun-yang.github.io/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6/%E5%9B%AB%E5%9B%B5%E5%90%8E%E6%84%9F/</link>
+      <pubDate>Sun, 12 Apr 2020 00:32:31 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6/%E5%9B%AB%E5%9B%B5%E5%90%8E%E6%84%9F/</guid>
+      <description>细碎的想法 我发现自己似乎更偏好读一些悲剧，享受着多巴胺或者其它什么激素分泌带来的别样感官，为别人的故事感动的稀里哗啦，眼泪一抹又欢天喜地的去过自己的生活…… 真是……恶劣的人性……
+可能要读的书 最近觉得自己应该读一读麦格尼格尔的《自控力》，挽救挽救自己岌岌可危的生活……
+某一类的专题 反乌托邦题材 下笔的时候距离我第一次翻开乔治奥威尔的文字应该已经过去4年了，当时的感官早已模糊到被一个形容词就一言敝之——“震撼”。《1984》算得上是我正式的文学阅读的入门之作，幼嫩的心智从严肃的甚至可以说是难以理解的文字中隐约触及了一些深层次的东西。 当然，这不是个回忆专题，回归正题，这个专题，希望记录在阅读反乌托邦题材过程中的思考。《1984》会再读一遍，四年前的幼稚想法就不写出来贻笑大方了。《动物农庄》以我浅薄之见没看出来和《1984》有什么很大区别，更像个更容易被人理解的童话讽刺故事？觉得《1984》展开更加全面，就也不描述了，唔，读完《1984》也许会去找些评论文章，看看主流对这两本的评价看法。 下一本是《我们》
+美丽新世界 我个人是比较遵从科学绝对发展，这本陆陆续续读了四个月才读完（阅读障碍期），前三个月都在觉得这个设定特别符合我的胃口，大面积的思维改造从根本解决社会动乱，绝对的科学引领平稳发展，美丽新世界尽展蓝图，啊，多完美呀！（这里应该有个大写的狗头） 后来，尝试自我代入……觉得……还是算了吧……人被圈养作为真正的社畜，即使一生都“文明而幸福”，在我现在的价值体系判断标准中是应该被归类为“荒谬”的。我生长的环境，所学所思，让我在“愚蠢的幸福”和“清醒的痛苦”中毫不犹豫的选择后者。（因为实际上是在清醒的幸福中吧……唔……感谢革命先烈）我受到的教育，所定义的科学，是从混乱中得到灵感，再赋予逻辑。这就意味着，追求我的科学，人所面临的不稳定环境，思维的不稳定性都是极为重要的。用科学创造秩序，从混乱中得到科学，这才是我的科学。领袖人物的代表——元首，他也需要通读莎士比亚、圣经接触“不文明”，维持自己的清醒，才有资格去引领民众去走他们的“愚昧幸福之路”。 然而，认真想来，这样的社会，真正考虑到这种社会形态，可行性其实很高，在特殊的时期，历史不是没有向这个方向发展的趋势。也许真正面临痛苦之后，会使最正义的社会掌舵选择带领着民众走向“愚蠢的痛苦”。实际上，元首就是这样的掌舵者。（“警世之书”大约正是这个寓意）唔，所以“荒谬”这种情绪其实极为主观的，所谓“荒谬”也不是没可能成为事实。 全书最后的部分，应该也是高潮部分，野蛮人、元首、穆斯塔法·蒙德三个人的对话。野蛮人是作为我们社会的缩影，在和元首和蒙德所代表的“美丽新世界”进行对话。但是更准确，其实野蛮人应该是赫胥黎的缩影，欣赏莎士比亚，信仰上帝。然而对一个以上两种都不的读者来说，实在是想有人能插入进去作为第三方，阐述因果论者、无神论者的想法，听听那他们又会如何说…… 个人层面，足够强大的精神世界不需要被物化的上帝，也无需被固化思维去避免痛苦，社会层面，具有多元性包容性的社会会更具有生命力，我坚信，至少现在坚信。
+一些可能需要进一步查证思考的  目前阅读的所有反乌托邦题材都有一个绝对领袖“老大哥”“福帝”还有一只我没记住名字的猪……这是在说扭曲的社会形态往往和个人崇拜有关？  </description>
+    </item>
+    
+    <item>
+      <title>所购买的烹饪服务</title>
+      <link>https://yaxun-yang.github.io/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6/%E6%89%80%E8%B4%AD%E4%B9%B0%E7%9A%84%E7%83%B9%E9%A5%AA%E6%9C%8D%E5%8A%A1/</link>
+      <pubDate>Fri, 10 Apr 2020 18:50:51 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6/%E6%89%80%E8%B4%AD%E4%B9%B0%E7%9A%84%E7%83%B9%E9%A5%AA%E6%9C%8D%E5%8A%A1/</guid>
+      <description>小偏好  真的不喜欢外面卖的熟鸡蛋，总觉得吃起来很不放心……但是漂亮的煎鸡蛋又还挺喜欢的，主要是自己煎不出来漂亮的啦，嘻嘻嘻 最近喜欢中式食物，浓厚的混杂的酸甜苦辣。  外卖  千万注意量，不要吃外卖吃撑自己，浪费也不太好……  </description>
+    </item>
+    
+    <item>
+      <title>对话和思想里想记录的一些</title>
+      <link>https://yaxun-yang.github.io/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6/%E5%AF%B9%E8%AF%9D%E5%92%8C%E6%80%9D%E6%83%B3%E9%87%8C%E6%83%B3%E8%AE%B0%E5%BD%95%E7%9A%84%E4%B8%80%E4%BA%9B/</link>
+      <pubDate>Thu, 09 Apr 2020 03:28:20 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6/%E5%AF%B9%E8%AF%9D%E5%92%8C%E6%80%9D%E6%83%B3%E9%87%8C%E6%83%B3%E8%AE%B0%E5%BD%95%E7%9A%84%E4%B8%80%E4%BA%9B/</guid>
+      <description> 和小伙伴们日常的对话里偶尔会有那么一两句值得被记录的，既然值得那么就记录下来吧。也许作为写作的素材，也许作为聊天的谈资，也许仅仅就是不想忘记曾经有过的思想…… 说起来，按我的性子，这样私密的东西是不该public的，但是又想着愿一生正大光明，所思所想无一不可尽对人言。那么放在这里又何妨呢？
+ 和WX不知道为什么聊起了18岁，才发现自己居然要20了，总觉得自己停在了18呀……唔，不过这不是重点，重点是我说“我8岁的时候觉得自己20岁的时候已经成为了能改变世界的人”“等我20岁的时候我大概已经不想改变世界了””不对，我觉得我还是想改变世界的，20岁不行，那么就30岁，30岁不行就40岁”少年意气，总该是有的。未尽之言却是如果我在40岁还不能改变世界，我不知道有没有勇气去追求可能改变世界的50岁……不过，40也未尝不可，毕竟才走过一半呀，年少的生命之所以迷人，不正是因为未来的无限可能么~ 关于为什么想要美洲叔叔（法利亚神甫当然更好啦）：两个方面吧，一个足够智慧的引领者和足以支撑肆意妄为的财富。 会想要亲眼目睹草原上的大迁徙在成千上万的河马里找到粉红色的那只，想要看喜马拉雅山顶的新雪是什么样纯洁的颜色，想要亲手抚摸大裂谷崖壁上千年前的裂缝，想要深入海底看距离人类垂直万里的神秘物种，5.1亿平方千里有太多的美丽值得。 会想修习律词格韵与鸿儒谈笑世事变迁，想通晓语言体会异域文化的万种风情，想读书万卷通历史物是人非，想深谙沟通技巧用语言的力量去改变我想改变的，想博览理物学科用最细致的方式去感知自然的尊严，想研究工匠巧艺知道让生活的细节更加愉悦的方法，想融入音乐、美术和舞蹈懂得欣赏甚至能够创造人类的美丽，上下五千年有太多的智慧值得。  </description>
+    </item>
+    
+    <item>
+      <title>为了不饿死而开始的尝试</title>
+      <link>https://yaxun-yang.github.io/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6/%E4%B8%BA%E4%BA%86%E4%B8%8D%E9%A5%BF%E6%AD%BB%E8%80%8C%E5%BC%80%E5%A7%8B%E7%9A%84%E5%B0%9D%E8%AF%95/</link>
+      <pubDate>Thu, 09 Apr 2020 02:28:27 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6/%E4%B8%BA%E4%BA%86%E4%B8%8D%E9%A5%BF%E6%AD%BB%E8%80%8C%E5%BC%80%E5%A7%8B%E7%9A%84%E5%B0%9D%E8%AF%95/</guid>
+      <description>由于肺炎超乎想象的影响力，大二的寒假在家里呆了三个月。在这期间，充分享受来自亲爹琴妈的溺爱，真·十指不沾阳春水，从来不做家务事没做过一餐饭没洗过一次碗。我有理由相信这样的日子绝对是人生巅峰了…… 然后呢，我的好日子过到了老爸老妈都复工复产去了的时候，我再度成为了没人管的小可怜，得操心一下自己的吃饭问题了。 以上，就是这篇文章的背景情景。记录一下自己下厨get到的知识点。
+煮饺子 饺子主要是煮久了容易煮破，煮的时间过短又怕饺子里的肉没熟（是的我都干过QAQ）。 技巧是在煮饺子的水快要沸腾的时候加点冷水进去。 另外饺子最好在冷水的时候就加进去一起煮，免得刚从冰冻箱里拿出来的冰饺子和沸水反应过激烈弄破皮，也可加长饺子的受热时间。
+红烧鸡翅根 只做了两只鸡翅根，卖相很是不好，但味道居然出乎意料的不错。 犯了两个个傻，一个在于把葱和姜蒜一起在小火烹制之前放了进去，然后葱全糊了，这也是卖相不好的重要原因。 另一个在于焯血水的时候用沸水焯的，这样会导致肉外面熟透了不好入味，里面又没熟，索性红烧的菜有小火烹制的步骤，应该是水蒸气把里面的肉弄熟了。 至于味道还成则是因为是抄糖色这一步还挺成功的，用的是水抄糖色法，比较好控制火候。 嗯，冰冻的肉类在做成食物之前往往需要解冻，直接加到水里加热会导致营养成分流失，比较好的做法是提前一个晚上从冷冻箱拿出来放进制冷箱。（要在制冷箱里待8h+呀） 还有料酒记得加了水之后再放，如果不希望料酒里的水遇见热油之后溅到脸上的话（我真的不希望QAQ）
+又做了一次鸡翅根，这次收汁做的很好呢，汁水味道超好的~ 新发现是大蒜煮久了会划掉，谜之觉得好味道的汁水和这个有关系。 然后用油抄糖色可能还是比较好，水真的太容易完全蒸发了，用了给鸡翅根这种表面凹凸不平颇为（超级？）难均匀抄糖色的食材来说不太方便。 另外小火烹制的时候水放少一点，前一步放了油这一步水还挺难蒸发掉的，水放多了就浪费时间浪费煤气，实在放多了就倒掉吧，减少一点浪费。 虽然没啥依据，但是我直觉觉得焯血水的时候要注意以下在水沸腾前停下来，这一步煮的太透了之后就不进味了。 鸡翅根可以加水小火烹制之前稍微煎焦一点，我喜欢稍微焦一点（真的是一点哦）的口感。 葱可以生吃，反正不会死（就是记得洗干净一点），千万别搅拌，搅拌了就不好看了。 可以放一点老抽，汁水好吃一定也有老抽的功劳。 蛋炒饭 放了胡萝卜就挺好吃的了，但是用的剩饭太硬了，放饭的时机也稍微晚了一点，导致蛋和饭混合的并不是很均匀。 小技巧在于，胡萝卜（如果有火腿丁的话火腿丁也是）要先弄熟出锅，最好用大火炒比较好吃，之后再入锅和蛋炒饭混合。 还有在炒蛋炒饭的时候最好用小火，让蛋晚一点凝固，和饭充分混合。</description>
+    </item>
+    
+    <item>
+      <title>Javascript学习笔记</title>
+      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 06 Apr 2020 19:24:10 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description>在写下这篇文字的时候是没有过系统学习过 js 的，由于写的是一个java web项目，用到 js 在所难免，又无法用调试工具调试，唔，真的很浪费时间，不管怎么样，把发现记录在这里吧~
+同一个页面中的 js 的引用次序 自己写了一个js由于使用了jquery语法，又要引用到jquery文件。这个jquery文件呢，在作为被包含的common类型页面top.html中其实是已经被引用过了的但是，自己写的js是放在&amp;lt;head&amp;gt;标签中，而对top页面的包含引用则是放在&amp;lt;body&amp;gt;中，所以就造成了先解析自定义js再解析jquery文件，从而自定义js表现为无效。 作为thymeleaf内联函数的 js 正确的引用法：
+ &amp;lt;script th:inline=&amp;quot;javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; 错误的引用法：
+ &amp;lt;script type=&amp;quot;text/javascript&amp;quot; th:inline=&amp;quot;javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; 我猜大约是因为type属性和内联函数属性不匹配的原因，不如不写type属性，让它自动匹配好了</description>
+    </item>
+    
+    <item>
+      <title>SpringMVC学习之AOP</title>
+      <link>https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Baop/</link>
+      <pubDate>Fri, 03 Apr 2020 02:07:18 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Baop/</guid>
+      <description>铁哥有稍微讲过，但是没具体，感觉是个好东西，那就学吧~ 具体代码还是在项目里，这里放些mark和乱七八糟的理解
+Mark一些没看懂的blog，之后回来看  [AOP注解式拦截与方法规则拦截]（https://blog.csdn.net/xywnrf/article/details/81042728）  一些知识点  AOP只适用于protected类和public类  </description>
+    </item>
+    
+    <item>
+      <title>SpringMVC学习之session和model</title>
+      <link>https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bsession%E5%92%8Cmodel/</link>
+      <pubDate>Thu, 02 Apr 2020 21:25:23 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bsession%E5%92%8Cmodel/</guid>
+      <description>情景描述 在写鸟店的项目中，在多个页面需要用到account的信息，在myPetStore1.0里，使用session实现account长时间缓存。在SpringMVC中则不推荐使用account ， 铁哥有告诉我们用到“@SessionAttributes”标签和其它几个类似标签，但是并未具体说明，在做了一些实验，看了一些资料之后，写下我的理解。
+理解 @SessionAttributes（value={&amp;ldquo;att1&amp;rdquo;,&amp;ldquo;att2&amp;rdquo;,&amp;ldquo;att3&amp;rdquo;},types={Class1.class,Class2.class}）：用于类，被value注释了名字的属性和被types注解了类型的属性将会在被加入model之后被自动加入session。取两种集合的并集。 需要特别注意的是，加入session的操作，大约是在整个被调用方法执行之后，具体表现为：
+model.addAttribute(&amp;quot;account&amp;quot;,account); System.out.println(httpServletRequest.getSession().getAttribute(&amp;quot;account&amp;quot;)); ---- null 这样随后从session中取值，取到的实际上是空值
+通过 SessionStatus的setComplete()方法可以清空SessionAttribute中的数据
+@ModelAttribute(&amp;ldquo;att&amp;rdquo;)：用在方法，意义是使得方法中的被注释的属性自动加入model
+@SessionAttribute（value=&amp;quot;att&amp;rdquo;）： 用在属性，访问预先存在的全局会话属性，可使得被注释的属性被注入存在SessionAttribute中的值</description>
+    </item>
+    
+    <item>
+      <title>SQL学习笔记</title>
+      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/sql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 31 Mar 2020 12:34:03 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/sql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>如何打开mySQL服务</title>
+      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80mysql%E6%9C%8D%E5%8A%A1/</link>
+      <pubDate>Sun, 22 Mar 2020 19:23:07 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80mysql%E6%9C%8D%E5%8A%A1/</guid>
+      <description>背景 为了稍微挽救一下win10电脑的内存，mySQL在日常使用电脑的过程中也不是有很高的使用频率，于是平常都是禁用mySQL的服务，来避免mySQL的自启动。结果长时间不用mySQL之后，一旦又要用，就开始懵逼，不知道如何打开服务，特意写下此备忘录。
+解决方案 管理员方式打开cmd-&amp;gt;输入net start mysql 如果出现
+发生系统错误5 那么是因为没有用管理员方式运行cmd
+如果出现
+发生系统错误1058 说明系统服务中mysql被禁用，打开服务，将mySQL服务属性中的启动类型改为“手动”（猜测这样就不会开机自启动而且可以被命令行打开）</description>
+    </item>
+    
+    <item>
+      <title>SpringMVC学习之IDEA未导入Maven插件</title>
+      <link>https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bidea%E6%9C%AA%E5%AF%BC%E5%85%A5maven%E6%8F%92%E4%BB%B6/</link>
+      <pubDate>Sun, 22 Mar 2020 09:56:06 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bidea%E6%9C%AA%E5%AF%BC%E5%85%A5maven%E6%8F%92%E4%BB%B6/</guid>
+      <description>背景 这个错误倒不是我出的，凌晨接到小伙伴的求救消息，说是跟着视频来，但是程序出错无法运行，远程通过QQ控屏，一通折腾，发现是maven资源包未导入，资源目录下仅有JDK的包，windows toos下也没有Maven选项，遂百度。
+解决方案 File-&amp;gt;Setting-&amp;gt;Plugins-&amp;gt;勾选Maven</description>
+    </item>
+    
+    <item>
+      <title>一些现象和问题</title>
+      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E4%B8%80%E4%BA%9B%E7%8E%B0%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Sat, 14 Mar 2020 00:15:41 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E4%B8%80%E4%BA%9B%E7%8E%B0%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98/</guid>
+      <description>  使用FDM下载的时候，同时下载多个软件，并设置优先级，那么优先级底的后加入的下载速度快，先加入的优先级高的下载速度反而慢，并且下载少数几个文件时，下载速度慢。（改用aria2了，这个问题不管啦）
+  在家里网速实在过慢了，怀疑被占用了宽带或者是因为win10不停的在下载更新？
+  </description>
+    </item>
+    
+    <item>
+      <title>Win10软件推荐</title>
+      <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Fri, 13 Mar 2020 20:46:42 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</guid>
+      <description>前言  说实话作为一只码猿，用win10作为主要环境，我是愧疚的，但毕竟菜嘛……而且用都用了还是努力提高一下工作效率吧，记录一下长期看各种推荐并被种草，实测好用的各种win10软件。本人有一定洁癖+颜控+穷，喜欢干净漂亮简介的页面只能用得起开源或者免费个人版，应该算主流审美吧，作为码猿，不排斥甚至会比较喜欢繁琐的配置，复杂的操作什么的，读者需慎。 加粗代表正在使用的 不全是推荐，也有排雷和吐槽，由于懒，电脑上的软件估计并不会写全，就想写啥写啥啦，哈哈哈哈…… 嗯，作为一篇推荐帖，虽然估计没人看，但还是会尽量考虑读者体验哒~
+系统基础管理类 卸载工具 Geek Uninstaller
+深而快的扫描，其实是我入手的第一款卸载工具，反正比系统自带好。 专业且免费。 即开即用，好东西，我爱它！
+下载软件   迅雷 讲道理，非专业用途的话，迅雷其实挺好的，速度够快，配置够简单，我用了很长一段时间，基本满足需求，但是广告多，没事搞个弹窗，而且有越来越恶劣化的趋势，我觉得还是早点脱坑的好。
+  Free Download Manager(FDM) 多线程，按后缀名管理下载路径，各种专业配置，免费开源。页面简介好看，缺点是要Chrome自动链接下载的话需要加载一个插件，找了半天没找到懒得搞了，每回都是复制链接打开软件新建项目，略有一点麻烦。
+  Internet Download Manager(IDM) 和上面的FDM差不多，似乎FDM是借鉴IDM的，这个不开源，但是付费的话体验应该比FDM好一些，我没试过，就单纯列出吧。
+  资源管理软件  Clover 给资源管理器加上类似于网页的标签，比较符合我的使用习惯。但是新建文件夹的时候对中文命名及其不友好，打算先用一段时间，不好用就卸了。  </description>
+    </item>
+    
+    <item>
+      <title>SprigMVC学习之IOC注入出错</title>
+      <link>https://yaxun-yang.github.io/java-web/sprigmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bioc%E6%B3%A8%E5%85%A5%E5%87%BA%E9%94%99/</link>
+      <pubDate>Fri, 13 Mar 2020 20:04:06 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/java-web/sprigmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bioc%E6%B3%A8%E5%85%A5%E5%87%BA%E9%94%99/</guid>
+      <description>背景 初学SpringMVC 尝试使用标签代替xml配置，然后报错，完整报错如下：
+&amp;quot;C:\Program Files\Java\jdk1.8.0_91\bin\java.exe&amp;quot; -ea -Didea.test.cyclic.buffer.size=1048576 &amp;quot;-javaagent:D:\download\IntelliJ IDEA 2019.2.2\lib\idea_rt.jar=55492:D:\download\IntelliJ IDEA 2019.2.2\bin&amp;quot; -Dfile.encoding=UTF-8 -classpath &amp;quot;D:\download\IntelliJ IDEA 2019.2.2\lib\idea_rt.jar;D:\download\IntelliJ IDEA 2019.2.2\plugins\junit\lib\junit5-rt.jar;D:\download\IntelliJ IDEA 2019.2.2\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;D:\java\springDemo\springDemo\target\classes;C:\Users\87911\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\87911\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\87911\.m2\repository\org\springframework\spring-core\5.2.3.RELEASE\spring-core-5.2.3.RELEASE.jar;C:\Users\87911\.m2\repository\org\springframework\spring-jcl\5.2.3.RELEASE\spring-jcl-5.2.3.RELEASE.jar;C:\Users\87911\.m2\repository\org\springframework\spring-beans\5.2.3.RELEASE\spring-beans-5.2.3.RELEASE.jar;C:\Users\87911\.m2\repository\org\springframework\spring-expression\5.2.3.RELEASE\spring-expression-5.2.3.RELEASE.jar;C:\Users\87911\.m2\repository\org\springframework\spring-context\5.2.3.RELEASE\spring-context-5.2.3.RELEASE.jar;C:\Users\87911\.m2\repository\org\springframework\spring-aop\5.2.3.RELEASE\spring-aop-5.2.3.RELEASE.jar&amp;quot; com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit4 org.csu.springDemo.ioc.test.AccountDemo,test 三月 13, 2020 1:39:17 下午 org.springframework.context.support.AbstractApplicationContext refresh 警告: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;account&#39; defined in file [D:\java\springDemo\springDemo\target\classes\org\csu\springDemo\ioc\domain\Account.</description>
+    </item>
+    
+    <item>
+      <title>SpringMVC学习（目录）</title>
+      <link>https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</link>
+      <pubDate>Fri, 13 Mar 2020 19:47:23 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</guid>
+      <description>前言  在软件开发架构课程中进行SpringMVC的学习，上个学期已经学习过一些Web基础了，也完成了一个被我命名为myPetStore1.0的项目，SpringMVC的学习将完成myPetStore2.0（暂时命名为MyPetstore）,目标是实现一个普通的webapp项目转化基于springframework的webapp项目，在此记录一些在此过程中遇到的坑和感悟什么的，嗯，应该也会包括对intellJ IDEA 使用的备忘。为了方便查找，写成系列文章好了，此篇为目录。 再次重构，将spring 和 vue 结合， 完成第三版 myPetStore3.0,实现前后端分离，也将问题和理解在这里记录。
+目录 坑   IOC注入失败
+  IDEA未导入Maven插件
+  关于细节的理解  session和model  初始化配置  spring boot 初始化  </description>
+    </item>
+    
+    <item>
+      <title>Keepass学习笔记</title>
+      <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/keepass%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 24 Feb 2020 21:40:25 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/keepass%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Win10如何关闭Flash助手</title>
+      <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADflash%E5%8A%A9%E6%89%8B/</link>
+      <pubDate>Fri, 14 Feb 2020 19:26:22 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADflash%E5%8A%A9%E6%89%8B/</guid>
+      <description> 运行窗口中输入命令services.msc 进入服务程序 选择特定服务组件 打开属性配置 启动类型改为禁用 停止服务 删除 Flash service helper  </description>
+    </item>
+    
+    <item>
+      <title>一些可爱的梗（可能会写【捂脸】）</title>
+      <link>https://yaxun-yang.github.io/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/%E4%B8%80%E4%BA%9B%E5%8F%AF%E7%88%B1%E7%9A%84%E6%A2%97%E5%8F%AF%E8%83%BD%E4%BC%9A%E5%86%99%E6%8D%82%E8%84%B8/</link>
+      <pubDate>Thu, 13 Feb 2020 12:45:19 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/%E4%B8%80%E4%BA%9B%E5%8F%AF%E7%88%B1%E7%9A%84%E6%A2%97%E5%8F%AF%E8%83%BD%E4%BC%9A%E5%86%99%E6%8D%82%E8%84%B8/</guid>
+      <description>很不怕死的把小言情都放了出来，本来放在JJ上，结果没过审（我已经很克制了啊，呜呜呜），主要是不public就觉得自己白写了，又过于羞耻不敢放到受众过广的其它平台，就放在blog上好了，理论上来说只要不从我的github上扒过来，是不至于看到这些的……要是真的被三次元扒了……呜呜呜，跪求发发善心当作没看到吧，千万别来当面和我提，否则当场表演羞耻爆炸=（（（ 顺便，写文真的和写代码一样，基建两小时，debug一世纪……（啊，这句话不是我说的，是WX说的，我觉得略有道理，搬到这里） 写着写着get一个小技巧，多分段，看上去能高级不少~
+1 设定：  有原著，然而原著文笔太烂，看不下去（然而话说我自己文笔会很好吗？？？）努力加足够多的私设我就没有抄袭：） 女主视角倒追，男主视角暗恋多年爱情长跑 “很多年前我看到你面向世界的足够坚硬，就觉得我一定要给你一个可以肆无忌惮的角度” 绝对是个小甜饼 女主于秋，男主周瑾  私设：  女主视角自己懦弱自卑努力向自信大方转型灰姑娘，男主绅士风度神仙 男主视角自己每天祈祷一百遍不要被分手，女主是被自己吓到了不敢提分手不敢伸爪子的小奶猫 男主知道女主喜欢自己清清淡淡运筹帷幄的神仙样子，面对女主表面各种面瘫内心暗戳戳，总觉得女主和自己在一起是一时心血来潮，随时可能想清楚了提分手。每天都在想要亲亲抱抱举高高，但是……不敢坏自己人设。 女主前期没安全感，请男主帮忙倒杯水会说谢谢，后期恃宠而骄作天作地  小剧场：  于欢喝多了之后就特别幼稚，又黏人。 周瑾来接人的时候，她正缠着林莞尔还要喝酒，一口一个“莞莞你最好了”“莞莞我好喜欢你呀”“莞莞再让我喝一口”，林莞尔把她周围的酒全换成了苏打水，还怕这个幼稚鬼喝水喝多了难受，使劲拦着她，一边不忘翻着白眼吐槽，“现在当然是我最好了，一会你家周瑾来了，我看你还记不记得我”。 果然，周瑾一走近，幼稚鬼马上放开林莞尔，整个人扑到周瑾身上。还不忘厚着脸皮撒谎“周瑾，我没有喝很多酒”顿了一下可能觉得没多少说服力，又开始恶人先告状“你要是早点来接我，我肯定不会喝这么多”。 周瑾气笑了，骂一声“小混蛋”，使了点力气捏了捏小混蛋的鼻子，惹得人不满的往自己怀里更深处缩。 林莞尔一副没眼看的样子，随意和他们挥挥手告别，夜场女王自然不会走得这么早，送走了于秋，她的夜生活才刚刚开始。 于秋在外面还算收敛，乖乖得任周瑾开车把她带回家。回了家就开始使劲闹腾，一会嫌弃周瑾醒酒汤煮的不好喝非得要喂着才肯喝，一会闹着说饿了让周瑾给自己做红烧排骨面，洗完澡还非要做足了睡前护肤全套才肯上床。 周瑾能怎么样，大少爷过去一年被使唤得都没有今天一天多，只能任劳任怨伺候着小混蛋，心里面发誓等明天小混蛋酒醒了非得把今晚受的累讨回来。 于秋吃了被喂了醒酒汤，吃了面条，涂好了睡眠面膜，终于满意了，小猫一样缩在周瑾坏了。任着他重重地亲自己泄愤也不气，反而看着周瑾笑得一副偷了腥的样子，声音也掺了蜜，撒娇一样的问周瑾“你怎么这么好呀？你是不是特别喜欢我呀？” 周瑾突然想起再遇于秋的那天晚上，周瑜手舞足蹈得饭桌上和林夕夕描述白天发生的事。周瑾只觉得周瑜实在聒噪得很，全程面无表情，仿佛说得不是自己一样。林夕夕听得倒是津津有味，转头笑着对自己一贯骄傲的儿子说“你也不小了，要是真的特别喜欢，就去追求嘛”。 当时，周瑾听到林夕夕这么说，心里某名涌现一丝躁意。 “特别喜欢？不过是印象深刻了些许，不讨厌罢了。更何况那女人一副没心没肺的样子，大少爷他又何必自讨苦吃去追求女人。”也就顺口冷淡回应林夕夕“妈，你想多了”。 如今，再看看怀里于欢，湿漉漉的眼睛一眨也不眨得盯着自己，面色因为醉酒而泛着红晕，娇软的身体以完全依赖的姿势趴在自己怀里，等着自己的回答。 周瑾心里像被蚂蚁蜇了一下，顿时什么其它想法都没有了。 只觉得没心没肺也好，小混蛋也好，只要人在自己怀里怎么样都好。 小混蛋、幼稚鬼、小骗子是她，小祖宗、小娇娇、大宝贝也是她。 载在她手上，被她欺负，一辈子也甘之如饴。 于是低头又吻了吻自己的小娇娇，在她耳边低声告诉她。 “是的，特别喜欢。不止喜欢，爱你。只爱你。”  2 说明 纯粹想写个场景，等价于正文结局章，偏男主视角，男主设成重生，前世特别狗，甚至把自己狗死了才舍得放过女主，女主设定是坚定自持女强人，宁为玉碎不为瓦全那种。名字乱取的，商遇X秦颜。
+小剧场  大结局前夕，男主今世成功狗到女主，但是因为前世阴影，超级没有安全感。 商遇这天应酬的时候遇见了秦颜上一世后来的丈夫，那个人被作为商业新贵被人介绍给他，模样清俊，沉稳有度、不卑不亢，眼里却燃烧着野心勃勃的，就像自己年轻的时候一样——这也正是秦颜喜欢的类型。 商遇即使知道这两个人这辈子再也不可能有什么了，心里还是有点发酸，嘴上不轻不重两句，那人也足够知趣，不再攀谈。 回去的路上，商遇久违的抽了根烟。 “她至少现在在你身边，你还有什么不满意的？”他一遍又一遍告诉自己，勉强安抚了心里不知道哪里来的烦躁。 又在停车场多呆了会，嚼了片口香糖，才上楼去。他迫不及待地想吻她，想占有她确认她的存在，秦颜不喜欢烟味，如今他不想惹得她有任何一点不快。 商遇进去的时候，秦颜正倒在沙发吃葡萄，餐桌上有一碗犹有余温的鱼汤，看上去没被动过，他知道那是留给自己的。 这一世，两人的一日三餐都是商遇在做，秦颜自然是不再有上一世那样惊艳的一手好厨艺，却被于欢带着某一天莫名地对煲汤有了兴趣。 其实食材都是商遇早上提前处理好的，秦颜就是负责跟着菜谱放放调料，把握一下熬汤的火候时间，只要不把糖当成盐放，出不了大错。 前两天她弄了些简单了玉米排骨汤、红枣乌鸡汤，味道尚且算的上鲜美。由此，秦颜信心大增，觉得自己颇有厨艺上的天赋，信誓旦旦决定挑战挑战颇有难度的鱼骨汤。 只是秦颜虽然喜欢熬汤，却不爱喝这些汤汤水水，每回熬完之后，自己尝一两口，觉得不错自我陶醉一会，剩下都逼着商遇喝掉。 上一世，在商遇还没对她生出那些阴暗的小心思的时候，在两人没有闹崩之前，其实秦颜常常给商遇做饭，汤也熬到不少。那时候秦颜有一手好厨艺，做汤的用料流程讲究得多。 商遇喝的时候只道是寻常，直到后来，两人闹得不死不休，商遇再想喝上一口秦颜亲手熬的汤是在无可能了，商遇倒是常常想起秦颜熬的汤，却如何回忆也想不起是何滋味。 如今，“洗手做羹”这样的字眼，安在秦颜和自己身上，光是想一想就足够商遇心神荡漾。 如此，商遇被灌了一肚子水也是乐在其中，每每还换着花样说两句好听的话，哄秦颜开心。 秦颜自然是满意，更是自信，觉得自己果然天生好厨艺，于是每回熬了汤都兴致颇高，商遇一会家就会被等待已久的秦颜拉去喝汤。 这回却是不同，秦颜甚至连眼皮都没有抬一下，依旧一副心不在焉的样子，似乎是完全没发现有个人回来了，仍然给自己剥葡萄，全然不是之前两回熬好汤之后，迫不及待的亲手将汤端给商遇，盯着他喝完的快乐模样。 商遇想起晚宴上遇到的那人，心里一疙瘩，莫不是…他默不作声走近。 秦颜正将一颗剥好的葡萄放入唇中，半含着也不咽下，若有所思的模样，连商遇到了身后也没发现。 商遇心中更是不安，甚至手脚都有些发凉，当即不管不凑上去，吻住那因为含着葡萄而微张的唇，舌也乘机溜进去，使尽技巧百般花样舔弄着贝齿，或者缠着那一条香软顺滑缠绵。手脚更是不甚安分，熟练的撩开宽松的睡衣下摆便滑了进去。 秦颜的确没发现商遇回来了，这会被突如其来的偷袭惊吓到，眼睛瞪圆看上去比桌上的洗净了的紫玉葡萄还要澄澈几分。却又马上感知到熟悉的气息，被撩得在眼底泛上迷离，身体也软成一团。 过了良久，唇舌才分离，此时秦颜反应过来，面色的艳色又添上两分羞恼，眼底也微微润出水色，葡萄的汁水也不知什么时候顺着嘴角混着唾液流出，留下一条紫色的痕迹。 这幅勾人模样，更是让商遇满腔复杂变作欲火，烧得理智全无。 此时，秦颜胸前的衣襟已经大开，一只修长的手正握着只有雪白浑圆轻拢慢捻，另一只手也拦着纤细的腰肢，若有若无的摩挲。 那双作乱的手的主人，犹嫌不够，舔去佳人嘴边缠绵的痕迹之后，又去含弄那本该玉色无瑕，如今却泛着淡红的可怜耳垂。可惜刚舔弄几下，还来不及细细品尝，便被推开。 秦颜面上的羞红还未褪去，明明动情了，却仍然拒绝。手上的力道虽然不大却足够表达主人的意思，她将商遇往餐桌推，说“你先去把鱼汤喝了，我有话对你说”。 商遇本是欲火焚原，被这么一推，心头如同被泼了一桶冰水，一下子又堕入了寒冬。 他想起来前世，秦颜也是这样，给他做了一桌好菜，等两人吃饱喝足，就告诉商遇，她要回国了。 那时商遇还不知道自己对秦颜动了什么样的心思，听了这话虽然自觉不愿意，却还是在秦颜的坚持下放她走了。 再之后，等商遇经过数月的辗转难免，无数次夜间梦见与秦颜相处的场景，终于想清楚了自己究竟要什么而追回国内之后，就听闻了秦颜订婚的消息。 然后是不断的针锋相对，两人再无平静相处。 此时，他麻木地被秦颜推到桌前，麻木地端起碗咽下一口鱼汤。 他想，她又要走了吗和那个人吗，他们什么时候见得面？ 他无比后悔在宴会的时候心慈手软，想着徐徐图之，不让秦颜发现有什么不对，没直接让人做掉那个人。 不，那个人明明才回来，难道在他不知道的时候，有其他人…… 他想说“能不走吗？”，却悲哀得发现，哪怕过了一世，他依旧没有任何筹码能留下秦颜。 他甚至不敢有任何的轻举妄动，耍任何的心机手段，怕惹得秦颜再对他露出厌恶的表情，怕那张宜笑宜嗔的小嘴再吐露伤人的话语。 经历过两情相悦的欢愉之后，秦颜的厌恶，对他来说比失去秦颜还要可怕。 商遇觉得冰凉入骨，理智已经完全被来势汹汹的恐慌吞噬，他甚至想，如果自己跪下来苦苦哀求，能不能让秦颜对自己稍微心软一点。 &amp;ldquo;至少这回，要记住这碗鱼汤的味道&amp;rdquo;，他告诉自己，却全身乃至舌头都已经麻木。 他不敢转头看秦颜一眼，怕自己忍不住心生贪念，又做出不能挽回的事情。却有一只温软的小手贴过来，抚上他苍白的脸颊。 秦颜有些莫名，这个人回来一句话不说就发情，对着自己上下其手，喝了口鱼汤之后就脸色变得苍白得可怕，说起鱼汤…… “阿遇，我有话和你说~” &amp;ldquo;她还叫我阿遇……&amp;rdquo; 商遇终于回笼了几分理智，心里升上几点希望，感官也重新运作了起来，他放下鱼汤，欲看向身边的秦颜，不想她却直直扑向自己怀里，温香软玉抱了满怀.</description>
+    </item>
+    
+    <item>
+      <title>查看占用端口pid并关闭该进程</title>
+      <link>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/%E6%9F%A5%E7%9C%8B%E5%8D%A0%E7%94%A8%E7%AB%AF%E5%8F%A3pid%E5%B9%B6%E5%85%B3%E9%97%AD%E8%AF%A5%E8%BF%9B%E7%A8%8B/</link>
+      <pubDate>Wed, 12 Feb 2020 22:28:40 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/%E6%9F%A5%E7%9C%8B%E5%8D%A0%E7%94%A8%E7%AB%AF%E5%8F%A3pid%E5%B9%B6%E5%85%B3%E9%97%AD%E8%AF%A5%E8%BF%9B%E7%A8%8B/</guid>
+      <description>问题情景  有时候IDE运行c或者c++程序的时候，会出现如下报错：  error: id returned 1 exit status 可能是因为上一次运行的exe文件没有关闭彻底，此时需要通过查询正在运行的程序关闭 2. 使用tomcat运行web项目的时候发现默认的8080端口被占用
+复杂版 查看占用进程的具体应用：
+	tasklist|findstr &amp;quot;XXXXX&amp;quot; 简单版 管理员权限进入cmd,并输入：
+taskkill -IM XXX.exe /F 查看当前所有运行中任务可输入：
+tasklist </description>
+    </item>
+    
+    <item>
+      <title>Navicat注册过期</title>
+      <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/navicat%E6%B3%A8%E5%86%8C%E8%BF%87%E6%9C%9F/</link>
+      <pubDate>Wed, 12 Feb 2020 22:11:29 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/navicat%E6%B3%A8%E5%86%8C%E8%BF%87%E6%9C%9F/</guid>
+      <description>长时间解决方案 下载软件Navicat Keygen
+短时间解决方案  关闭Navicat程序 键盘按 win + R， 输入 regedit 调出 Windows 系统注册表。 删除 HKEY_CURRENT_USER\SOFTWARE\PremiumSoft\Data: 展开 HKEY-CURRENT_USER\SOFRWARE\Classes\CLSID，然后展开每一个子文件夹查看，如果里面只包含一个info文件夹，就删掉它  ps: 所有 CAFEEFAC 开头的文件夹不需要检查（没有 info）</description>
+    </item>
+    
+    <item>
+      <title>注册新的dll文件</title>
+      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E6%B3%A8%E5%86%8C%E6%96%B0%E7%9A%84dll%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Wed, 12 Feb 2020 22:09:00 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E6%B3%A8%E5%86%8C%E6%96%B0%E7%9A%84dll%E6%96%87%E4%BB%B6/</guid>
+      <description>win+R打开运行后：
+regsvr32 xxxxx.dll</description>
+    </item>
+    
+    <item>
+      <title>Win10专业版过期</title>
+      <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E4%B8%93%E4%B8%9A%E7%89%88%E8%BF%87%E6%9C%9F/</link>
+      <pubDate>Wed, 12 Feb 2020 18:43:59 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E4%B8%93%E4%B8%9A%E7%89%88%E8%BF%87%E6%9C%9F/</guid>
+      <description>查看过期时间 运行 KMPspico 程序 查看是否激活 </description>
+    </item>
+    
+    <item>
+      <title>基于hugo的个人博客</title>
+      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E5%9F%BA%E4%BA%8Ehugo%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 29 Jan 2020 08:30:14 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E5%9F%BA%E4%BA%8Ehugo%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>之前学算法的时候就一直想建一个自己的blog, 对一个学了忘的家伙来说，把学了的东西记下来的确能省不少事，一直懒惰，知道后来听学姐说找出国可能会用到，也就莫名奇妙有了个执念，那么就折腾折腾吧。 先看的大量 blog, 感觉推荐 hexo 框架的比较多，后来发现有人说hexo部署太慢， 不如换成 hugo, 唔，那就换成hugo吧 。
+ 参考文章   hugo中文帮助文档 如何搭建你自己的博客（一系列文章）本墙头草从hexo转向hugo的根本原因 页面改造模板说明 一篇官网地址和各类配置格式汇总的博客    常用命令  hugo server 本地预览 https://localhost:1313 hugo 部署服务器（修改pubulic目录） hugo new site SITEADRESS/SITENAME 新建一个基站 hugo new POSTADRESS/POSTNAME 新建一篇文章   坑点  当希望使用tag等的时候,需要在&#39;config.toml&#39;中添加，双引号内内容固定  [taxonomies] tag = &amp;quot;tags&amp;quot; category = &amp;quot;categories&amp;quot; series = &amp;quot;series&amp;quot;  不要在描述 tags 的时候使用中文的“、”； 在每个tag具体内容与-之间必须有空格 使用 github 作为基站的时候注意将库公开，才能部署在github page 上。 放在static文件夹里的资源会被放在根目录，但是以绝对路径去获取却获取不到，需要从文章跳出一层当前文件夹，这样的相对路径获取   待解决 有心情再解决吧，本强迫症觉得那一天并不远</description>
+    </item>
+    
+    <item>
+      <title>Markdown用法</title>
+      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/markdown%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Wed, 29 Jan 2020 08:29:13 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/markdown%E7%94%A8%E6%B3%95/</guid>
+      <description>备忘系列之一，用于记录一些我常用常忘的markdown语法。
+ 教程   W3Cschool 菜鸟教程 插入图片的方法 表情大全:joy:    注意  代表分割线的---与正文内容之间需要空行，否则会导致正文内容标题化   常用语法  段首空格  &amp;amp;ensp;&amp;amp;ensp;半角 空格 &amp;amp;emsp;emsp;全角空格 空格 &amp;amp;nbsp;&amp;amp;nbsp;非断行 空格
+ 倾斜文字  	*需要倾斜的文字* 需要倾斜的文字
+ 加粗文字  	**需要加粗的文字** 需要加粗的文字
+ 斜体加粗  	***需要加粗且倾斜的文字*** 需要加粗且倾斜的文字
+ 删除线  	~~需要划删除线的文字~~ 需要划删除线的文字
+ 代码段，使用反引号(为转义添加小括号)  	(```) coding here and here (```) 	coding here and here  夹杂在文字之间的代码，同样是反引号  	在这段文字之间应该有个`code`不是吗？ 在这段文字之间应该有个code不是吗？</description>
+    </item>
+    
+    <item>
+      <title>Git用法</title>
+      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/git%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Wed, 29 Jan 2020 08:27:49 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/git%E7%94%A8%E6%B3%95/</guid>
+      <description>作为新手村玩家，不学 git 实在说不过去，奈何本人记性实在不好，顺手在这里把一些常用用法 mark 一下。小伙伴有推荐 git 的傻瓜式可视化工具Github Desktop，但是个人觉得不如命令行灵活好用，这里就单纯 mark 教程吧。
+ 教程  廖雪峰 Github Desktop 一条龙初学者教程   still puzzle  git 子模块   常用命令  连接远程库   git remote add origin git@git.com:Yaxun-Yang/adversarial_examples_renderer.git  将(master)内容推到远程数据库   git push -u origin (master)  修改现有远程库  git remote set-url origin git@git.com:Yaxun-Yang/adversarial_examples_renderer.git  查看是否连接远程库  git remote -v  添加文件至缓存区  git add .  添加版本库(添加说明)   git commit (-m &amp;quot;*****&amp;quot;)  清空工作区（但保存现场可恢复）  git stash  查看缓存区修改内容（恢复现场）   git status  清空缓存区内容  git reset .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on 阳某人每天都在干些啥？？？</title>
+    <link>https://yaxun-yang.github.io/tags/markdown/</link>
+    <description>Recent content in markdown on 阳某人每天都在干些啥？？？</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>yyx</copyright>
+    <lastBuildDate>Wed, 29 Jan 2020 08:29:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://yaxun-yang.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown用法</title>
+      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/markdown%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Wed, 29 Jan 2020 08:29:13 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/markdown%E7%94%A8%E6%B3%95/</guid>
+      <description>备忘系列之一，用于记录一些我常用常忘的markdown语法。
+ 教程   W3Cschool 菜鸟教程 插入图片的方法 表情大全:joy:    注意  代表分割线的---与正文内容之间需要空行，否则会导致正文内容标题化   常用语法  段首空格  &amp;amp;ensp;&amp;amp;ensp;半角 空格 &amp;amp;emsp;emsp;全角空格 空格 &amp;amp;nbsp;&amp;amp;nbsp;非断行 空格
+ 倾斜文字  	*需要倾斜的文字* 需要倾斜的文字
+ 加粗文字  	**需要加粗的文字** 需要加粗的文字
+ 斜体加粗  	***需要加粗且倾斜的文字*** 需要加粗且倾斜的文字
+ 删除线  	~~需要划删除线的文字~~ 需要划删除线的文字
+ 代码段，使用反引号(为转义添加小括号)  	(```) coding here and here (```) 	coding here and here  夹杂在文字之间的代码，同样是反引号  	在这段文字之间应该有个`code`不是吗？ 在这段文字之间应该有个code不是吗？</description>
+    </item>
+    
+  </channel>
+</rss>

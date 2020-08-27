@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="Hugo 0.62.2" />
+	
+	<title>Git用法 - </title>
+
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link href="https://yaxun-yang.github.io/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://yaxun-yang.github.io/css/strange-case.css" rel="stylesheet">
+	
+
+	
+	
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	
+	<link href="" rel="alternate" type="application/rss+xml" title="阳某人每天都在干些啥？？？" />
+</head>
+<body class="">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4 col-md-3 col-lg-3 sidebar">
+
+			
+	<div class="sidebar-content">
+
+		<a href="https://yaxun-yang.github.io"><h1>阳某人每天都在干些啥？？？</h1></a>
+		<p></p>
+
+		
+
+		<ul class="sidebar-menus">
+			
+		</ul>
+
+		<div class="sidebar-recent hidden-xs">
+			<p>Recent Posts:</p>
+			<ul>
+				
+				<li><a href="https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/adoble-acrobat-pro-dc-%E7%A0%B4%E8%A7%A3/">Adoble Acrobat Pro DC 破解</a></li>
+				
+				<li><a href="https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/">因为贫穷s</a></li>
+				
+				<li><a href="https://yaxun-yang.github.io/">阳某人每天都在干些啥？？？</a></li>
+				
+				<li><a href="https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/">Bug大赏s</a></li>
+				
+				<li><a href="https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99/">Windows10 Npm 大量报错</a></li>
+				
+			</ul>
+		</div>
+
+		
+
+		<p class="copyright">&copy; 2020. All rights reserved. </p>
+		<p class="attr">Powered by <a href="http://gohugo.io">Hugo</a> &amp; <a href="https://github.com/ExchangeRate-API/strange-case">Strange Case</a> (inspired by <a href="https://github.com/poole/hyde">Hyde</a>).</p>
+
+	</div>
+
+
+			</div>
+			<div class="col-sm-7 col-sm-offset-4 col-md-6 col-md-offset-3 col-lg-5 col-lg-offset-3 content">
+
+				<div class="post">
+
+					<div class="post-heading">
+						<h1>Git用法</h1>
+						<span class="post-date"><a href="https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/git%E7%94%A8%E6%B3%95/"># Jan 29, 2020</a></span>
+					</div>
+
+					<p>作为新手村玩家，不学 git 实在说不过去，奈何本人记性实在不好，顺手在这里把一些常用用法 mark 一下。小伙伴有推荐 git 的傻瓜式可视化工具Github Desktop，但是个人觉得不如命令行灵活好用，这里就单纯 mark 教程吧。</p>
+<hr>
+<h1 id="教程">教程</h1>
+<ul>
+<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600">廖雪峰</a></li>
+<li><a href="https://www.jianshu.com/p/06a960d991aa">Github Desktop</a></li>
+<li><a href="https://www.cnblogs.com/tugenhua0707/p/4050072.html#!comments">一条龙初学者教程</a></li>
+</ul>
+<hr>
+<h1 id="still-puzzle">still puzzle</h1>
+<ul>
+<li><a href="https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97">git 子模块</a></li>
+</ul>
+<hr>
+<h1 id="常用命令">常用命令</h1>
+<ul>
+<li>连接远程库</li>
+</ul>
+<pre><code>   git remote add origin git@git.com:Yaxun-Yang/adversarial_examples_renderer.git
+</code></pre><ul>
+<li>将(master)内容推到远程数据库</li>
+</ul>
+<pre><code>  git push -u origin (master)
+</code></pre><ul>
+<li>修改现有远程库</li>
+</ul>
+<pre><code>git remote set-url origin git@git.com:Yaxun-Yang/adversarial_examples_renderer.git
+</code></pre><ul>
+<li>查看是否连接远程库</li>
+</ul>
+<pre><code>git remote -v
+</code></pre><ul>
+<li>添加文件至缓存区</li>
+</ul>
+<pre><code>git add .
+</code></pre><ul>
+<li>添加版本库(添加说明)</li>
+</ul>
+<pre><code> git commit (-m &quot;*****&quot;)
+</code></pre><ul>
+<li>清空工作区（但保存现场可恢复）</li>
+</ul>
+<pre><code>git stash
+</code></pre><ul>
+<li>查看缓存区修改内容（恢复现场）</li>
+</ul>
+<pre><code> git status
+</code></pre><ul>
+<li>清空缓存区内容</li>
+</ul>
+<pre><code>git reset .
+</code></pre><ul>
+<li>还原修改</li>
+</ul>
+<pre><code>git checkout .
+</code></pre><ul>
+<li>删除新建文件和文件夹</li>
+</ul>
+<pre><code>git clean -d
+</code></pre><ul>
+<li>查看具体文件的具体修改事项</li>
+</ul>
+<pre><code>git diff readme.txt
+</code></pre><ul>
+<li>由近至远显示提交日志(简洁版显示)</li>
+</ul>
+<pre><code>git log  (-pretty = online)
+</code></pre><ul>
+<li>回退上上个版本</li>
+</ul>
+<pre><code> git reset -hard HEAD^^
+</code></pre><ul>
+<li>回退上一百个版本</li>
+</ul>
+<pre><code class="language-git" data-lang="git">git reset -hard HEAD~100
+</code></pre><ul>
+<li>查看本地分支</li>
+</ul>
+<pre><code>git branch
+</code></pre><ul>
+<li>查看远程分支</li>
+</ul>
+<pre><code>git branch -r
+</code></pre><ul>
+<li>拉取远程分支并进入该分支</li>
+</ul>
+<pre><code>git checkout -b 本地分支名 origin/远程分支名
+</code></pre><ul>
+<li>拉取远程分支但不进入该分支</li>
+</ul>
+<pre><code>git fetch origin 远程分支名：本地分支名
+</code></pre><ul>
+<li>切换分支</li>
+</ul>
+<pre><code>git checkout 分支名
+</code></pre>
+
+				</div>
+
+			</div>
+			<div class="col-sm-1 col-md-3 col-md-4">
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://yaxun-yang.github.io/js/bootstrap.min.js"></script>
+
+</body>
+</html>

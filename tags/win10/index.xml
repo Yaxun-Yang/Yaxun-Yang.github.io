@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>win10 on 阳某人每天都在干些啥？？？</title>
+    <link>https://yaxun-yang.github.io/tags/win10/</link>
+    <description>Recent content in win10 on 阳某人每天都在干些啥？？？</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>yyx</copyright>
+    <lastBuildDate>Fri, 13 Mar 2020 20:46:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://yaxun-yang.github.io/tags/win10/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Win10软件推荐</title>
+      <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Fri, 13 Mar 2020 20:46:42 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</guid>
+      <description>前言  说实话作为一只码猿，用win10作为主要环境，我是愧疚的，但毕竟菜嘛……而且用都用了还是努力提高一下工作效率吧，记录一下长期看各种推荐并被种草，实测好用的各种win10软件。本人有一定洁癖+颜控+穷，喜欢干净漂亮简介的页面只能用得起开源或者免费个人版，应该算主流审美吧，作为码猿，不排斥甚至会比较喜欢繁琐的配置，复杂的操作什么的，读者需慎。 加粗代表正在使用的 不全是推荐，也有排雷和吐槽，由于懒，电脑上的软件估计并不会写全，就想写啥写啥啦，哈哈哈哈…… 嗯，作为一篇推荐帖，虽然估计没人看，但还是会尽量考虑读者体验哒~
+系统基础管理类 卸载工具 Geek Uninstaller
+深而快的扫描，其实是我入手的第一款卸载工具，反正比系统自带好。 专业且免费。 即开即用，好东西，我爱它！
+下载软件   迅雷 讲道理，非专业用途的话，迅雷其实挺好的，速度够快，配置够简单，我用了很长一段时间，基本满足需求，但是广告多，没事搞个弹窗，而且有越来越恶劣化的趋势，我觉得还是早点脱坑的好。
+  Free Download Manager(FDM) 多线程，按后缀名管理下载路径，各种专业配置，免费开源。页面简介好看，缺点是要Chrome自动链接下载的话需要加载一个插件，找了半天没找到懒得搞了，每回都是复制链接打开软件新建项目，略有一点麻烦。
+  Internet Download Manager(IDM) 和上面的FDM差不多，似乎FDM是借鉴IDM的，这个不开源，但是付费的话体验应该比FDM好一些，我没试过，就单纯列出吧。
+  资源管理软件  Clover 给资源管理器加上类似于网页的标签，比较符合我的使用习惯。但是新建文件夹的时候对中文命名及其不友好，打算先用一段时间，不好用就卸了。  </description>
+    </item>
+    
+    <item>
+      <title>Win10如何关闭Flash助手</title>
+      <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADflash%E5%8A%A9%E6%89%8B/</link>
+      <pubDate>Fri, 14 Feb 2020 19:26:22 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADflash%E5%8A%A9%E6%89%8B/</guid>
+      <description> 运行窗口中输入命令services.msc 进入服务程序 选择特定服务组件 打开属性配置 启动类型改为禁用 停止服务 删除 Flash service helper  </description>
+    </item>
+    
+    <item>
+      <title>Win10专业版过期</title>
+      <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E4%B8%93%E4%B8%9A%E7%89%88%E8%BF%87%E6%9C%9F/</link>
+      <pubDate>Wed, 12 Feb 2020 18:43:59 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E4%B8%93%E4%B8%9A%E7%89%88%E8%BF%87%E6%9C%9F/</guid>
+      <description>查看过期时间 运行 KMPspico 程序 查看是否激活 </description>
+    </item>
+    
+  </channel>
+</rss>

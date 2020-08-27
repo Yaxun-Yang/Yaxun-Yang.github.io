@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="Hugo 0.62.2" />
+	
+	<title>blog - </title>
+
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link href="https://yaxun-yang.github.io/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://yaxun-yang.github.io/css/strange-case.css" rel="stylesheet">
+	
+
+	
+	
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	
+	<link href="https://yaxun-yang.github.io/tags/blog/index.xml" rel="alternate" type="application/rss+xml" title="阳某人每天都在干些啥？？？" />
+</head>
+<body class="">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4 col-md-3 col-lg-3 sidebar">
+
+			
+	<div class="sidebar-content">
+
+		<a href="https://yaxun-yang.github.io"><h1>阳某人每天都在干些啥？？？</h1></a>
+		<p></p>
+
+		
+
+		<ul class="sidebar-menus">
+			
+		</ul>
+
+		<div class="sidebar-recent hidden-xs">
+			<p>Recent Posts:</p>
+			<ul>
+				
+				<li><a href="https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/adoble-acrobat-pro-dc-%E7%A0%B4%E8%A7%A3/">Adoble Acrobat Pro DC 破解</a></li>
+				
+				<li><a href="https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/">因为贫穷s</a></li>
+				
+				<li><a href="https://yaxun-yang.github.io/">阳某人每天都在干些啥？？？</a></li>
+				
+				<li><a href="https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/">Bug大赏s</a></li>
+				
+				<li><a href="https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99/">Windows10 Npm 大量报错</a></li>
+				
+			</ul>
+		</div>
+
+		
+
+		<p class="copyright">&copy; 2020. All rights reserved. </p>
+		<p class="attr">Powered by <a href="http://gohugo.io">Hugo</a> &amp; <a href="https://github.com/ExchangeRate-API/strange-case">Strange Case</a> (inspired by <a href="https://github.com/poole/hyde">Hyde</a>).</p>
+
+	</div>
+
+
+			</div>
+			<div class="col-sm-7 col-sm-offset-4 col-md-6 col-md-offset-3 col-lg-5 col-lg-offset-3 content">
+
+				
+				<div class="post">
+
+					<div class="post-heading">
+						<h1><a href="https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E5%9F%BA%E4%BA%8Ehugo%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">基于hugo的个人博客</a></h1>
+						<span>Jan 29, 2020</span>
+					</div>
+
+					<p>之前学算法的时候就一直想建一个自己的blog, 对一个学了忘的家伙来说，把学了的东西记下来的确能省不少事，一直懒惰，知道后来听学姐说找出国可能会用到，也就莫名奇妙有了个执念，那么就折腾折腾吧。
+先看的大量 blog, 感觉推荐 hexo 框架的比较多，后来发现有人说hexo部署太慢， 不如换成 hugo, 唔，那就换成hugo吧 。</p>
+<hr>
+<h1 id="参考文章">参考文章</h1>
+<blockquote>
+<ul>
+<li><a href="https://hugo.aiaide.com/">hugo中文帮助文档</a></li>
+<li><a href="https://dp2px.com/2019/09/11/build-web/">如何搭建你自己的博客（一系列文章）</a>本墙头草从hexo转向hugo的根本原因</li>
+<li><a href="https://blog.csdn.net/weixin_44397907/article/details/99621517">页面改造模板说明</a></li>
+<li><a href="https://youendless.com/post/hugo_blog/">一篇官网地址和各类配置格式汇总的博客</a></li>
+</ul>
+</blockquote>
+<hr>
+<h1 id="常用命令">常用命令</h1>
+<ul>
+<li><code>hugo server</code> 本地预览 https://localhost:1313</li>
+<li><code>hugo</code> 部署服务器（修改pubulic目录）</li>
+<li><code>hugo new site SITEADRESS/SITENAME</code> 新建一个基站</li>
+<li><code>hugo new POSTADRESS/POSTNAME</code> 新建一篇文章</li>
+</ul>
+<hr>
+<h1 id="坑点">坑点</h1>
+<ul>
+<li>当希望使用tag等的时候,需要在'config.toml'中添加，双引号内内容固定</li>
+</ul>
+<pre><code>[taxonomies]
+	tag = &quot;tags&quot;
+	category = &quot;categories&quot;
+	series = &quot;series&quot;
+</code></pre><ul>
+<li>不要在描述 tags 的时候使用中文的“、”；</li>
+<li>在每个tag具体内容与<code>-</code>之间必须有空格</li>
+<li>使用 github 作为基站的时候注意将库公开，才能部署在github page 上。</li>
+<li>放在static文件夹里的资源会被放在根目录，但是以绝对路径去获取却获取不到，需要从文章跳出一层当前文件夹，这样的相对路径获取</li>
+</ul>
+<hr>
+<h1 id="待解决">待解决</h1>
+<p>有心情再解决吧，本强迫症觉得那一天并不远</p>
+<ul>
+<li>网页刷新速度慢</li>
+<li>主题页面和文章页面想使用不一样的模板</li>
+</ul>
+
+
+				</div>
+				
+
+				<div class="text-center">
+					
+
+
+				</div>
+
+			</div>
+			<div class="col-sm-1 col-md-3 col-md-4">
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://yaxun-yang.github.io/js/bootstrap.min.js"></script>
+
+</body>
+</html>

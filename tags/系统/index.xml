@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>系统 on 阳某人每天都在干些啥？？？</title>
+    <link>https://yaxun-yang.github.io/tags/%E7%B3%BB%E7%BB%9F/</link>
+    <description>Recent content in 系统 on 阳某人每天都在干些啥？？？</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>yyx</copyright>
+    <lastBuildDate>Sun, 22 Mar 2020 19:23:07 +0800</lastBuildDate>
+    
+	<atom:link href="https://yaxun-yang.github.io/tags/%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何打开mySQL服务</title>
+      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80mysql%E6%9C%8D%E5%8A%A1/</link>
+      <pubDate>Sun, 22 Mar 2020 19:23:07 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80mysql%E6%9C%8D%E5%8A%A1/</guid>
+      <description>背景 为了稍微挽救一下win10电脑的内存，mySQL在日常使用电脑的过程中也不是有很高的使用频率，于是平常都是禁用mySQL的服务，来避免mySQL的自启动。结果长时间不用mySQL之后，一旦又要用，就开始懵逼，不知道如何打开服务，特意写下此备忘录。
+解决方案 管理员方式打开cmd-&amp;gt;输入net start mysql 如果出现
+发生系统错误5 那么是因为没有用管理员方式运行cmd
+如果出现
+发生系统错误1058 说明系统服务中mysql被禁用，打开服务，将mySQL服务属性中的启动类型改为“手动”（猜测这样就不会开机自启动而且可以被命令行打开）</description>
+    </item>
+    
+  </channel>
+</rss>

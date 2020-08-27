@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thymeleaf on 阳某人每天都在干些啥？？？</title>
+    <link>https://yaxun-yang.github.io/tags/thymeleaf/</link>
+    <description>Recent content in thymeleaf on 阳某人每天都在干些啥？？？</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>yyx</copyright>
+    <lastBuildDate>Mon, 06 Apr 2020 19:24:10 +0800</lastBuildDate>
+    
+	<atom:link href="https://yaxun-yang.github.io/tags/thymeleaf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript学习笔记</title>
+      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 06 Apr 2020 19:24:10 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description>在写下这篇文字的时候是没有过系统学习过 js 的，由于写的是一个java web项目，用到 js 在所难免，又无法用调试工具调试，唔，真的很浪费时间，不管怎么样，把发现记录在这里吧~
+同一个页面中的 js 的引用次序 自己写了一个js由于使用了jquery语法，又要引用到jquery文件。这个jquery文件呢，在作为被包含的common类型页面top.html中其实是已经被引用过了的但是，自己写的js是放在&amp;lt;head&amp;gt;标签中，而对top页面的包含引用则是放在&amp;lt;body&amp;gt;中，所以就造成了先解析自定义js再解析jquery文件，从而自定义js表现为无效。 作为thymeleaf内联函数的 js 正确的引用法：
+ &amp;lt;script th:inline=&amp;quot;javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; 错误的引用法：
+ &amp;lt;script type=&amp;quot;text/javascript&amp;quot; th:inline=&amp;quot;javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; 我猜大约是因为type属性和内联函数属性不匹配的原因，不如不写type属性，让它自动匹配好了</description>
+    </item>
+    
+  </channel>
+</rss>

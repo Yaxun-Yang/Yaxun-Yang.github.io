@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bug大赏s on 阳某人每天都在干些啥？？？</title>
+    <link>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/</link>
+    <description>Recent content in Bug大赏s on 阳某人每天都在干些啥？？？</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>yyx</copyright>
+    <lastBuildDate>Wed, 17 Jun 2020 15:57:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows10 Npm 大量报错</title>
+      <link>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99/</link>
+      <pubDate>Wed, 17 Jun 2020 15:57:17 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99/</guid>
+      <description>重装系统解决90%的电脑问题，那么重装npm就解决90%的前端前端环境问题啦 在win10中是这个路径：
+C:\Users\87911\AppData\Roaming 删除npm和npm-cache 然后重装全局需要的组件 万事大吉，yeah~</description>
+    </item>
+    
+    <item>
+      <title>查看占用端口pid并关闭该进程</title>
+      <link>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/%E6%9F%A5%E7%9C%8B%E5%8D%A0%E7%94%A8%E7%AB%AF%E5%8F%A3pid%E5%B9%B6%E5%85%B3%E9%97%AD%E8%AF%A5%E8%BF%9B%E7%A8%8B/</link>
+      <pubDate>Wed, 12 Feb 2020 22:28:40 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/%E6%9F%A5%E7%9C%8B%E5%8D%A0%E7%94%A8%E7%AB%AF%E5%8F%A3pid%E5%B9%B6%E5%85%B3%E9%97%AD%E8%AF%A5%E8%BF%9B%E7%A8%8B/</guid>
+      <description>问题情景  有时候IDE运行c或者c++程序的时候，会出现如下报错：  error: id returned 1 exit status 可能是因为上一次运行的exe文件没有关闭彻底，此时需要通过查询正在运行的程序关闭 2. 使用tomcat运行web项目的时候发现默认的8080端口被占用
+复杂版 查看占用进程的具体应用：
+	tasklist|findstr &amp;quot;XXXXX&amp;quot; 简单版 管理员权限进入cmd,并输入：
+taskkill -IM XXX.exe /F 查看当前所有运行中任务可输入：
+tasklist </description>
+    </item>
+    
+  </channel>
+</rss>
