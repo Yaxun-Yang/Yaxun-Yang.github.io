@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>yyx</copyright>
-    <lastBuildDate>Wed, 17 Jun 2020 15:57:17 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2020 19:33:52 +0800</lastBuildDate>
     
 	<atom:link href="https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WLAN驱动错误</title>
+      <link>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/wlan%E9%A9%B1%E5%8A%A8%E9%94%99%E8%AF%AF/</link>
+      <pubDate>Tue, 08 Sep 2020 19:33:52 +0800</pubDate>
+      
+      <guid>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/wlan%E9%A9%B1%E5%8A%A8%E9%94%99%E8%AF%AF/</guid>
+      <description>问题描述 win10右下角网络连接选项显示未连接，点开后发现只显示飞行模式开关，不显示wifi列表 问题排查步骤  打开 此电脑-》管理-》设备管理器-》网络适配器  检查是否有wireless相关驱动，似乎不同的电脑会出现驱动种类不同的情况，查阅的blog中出现多种不同的驱动，在这里贴出我的驱动  打开服务， 选中任意一项,输入小写的w，此时显示所有以w开头的服务，检查服务WAN AutoConfig是否处于自动启功类型且处于运行状态
+  下载Rapr， 删除老旧驱动（可能是与老旧驱动发生了冲突）
+  </description>
+    </item>
     
     <item>
       <title>Windows10 Npm 大量报错</title>
