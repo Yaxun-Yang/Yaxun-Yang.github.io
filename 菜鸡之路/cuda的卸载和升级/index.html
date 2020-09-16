@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="Hugo 0.62.2" />
+	
+	<title>Cuda的卸载和升级 - </title>
+
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link href="https://yaxun-yang.github.io/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://yaxun-yang.github.io/css/strange-case.css" rel="stylesheet">
+	
+
+	
+	
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	
+	<link href="" rel="alternate" type="application/rss+xml" title="阳某人每天都在干些啥？？？" />
+</head>
+<body class="">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4 col-md-3 col-lg-3 sidebar">
+
+			
+	<div class="sidebar-content">
+
+		<a href="https://yaxun-yang.github.io"><h1>阳某人每天都在干些啥？？？</h1></a>
+		<p></p>
+
+		
+
+		<ul class="sidebar-menus">
+			
+		</ul>
+
+		<div class="sidebar-recent hidden-xs">
+			<p>Recent Posts:</p>
+			<ul>
+				
+				<li><a href="https://yaxun-yang.github.io/%E8%BF%B7%E6%83%91%E8%A1%8C%E4%B8%BA/%E5%90%91%E8%A1%A8%E7%99%BD%E5%A2%99%E5%AE%89%E5%88%A9%E5%8F%AF%E7%88%B1%E7%9A%84%E5%B9%B3%E5%B9%B3/">向表白墙安利可爱的平平</a></li>
+				
+				<li><a href="https://yaxun-yang.github.io/%E8%BF%B7%E6%83%91%E8%A1%8C%E4%B8%BA/">迷惑行为s</a></li>
+				
+				<li><a href="https://yaxun-yang.github.io/">阳某人每天都在干些啥？？？</a></li>
+				
+				<li><a href="https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/cuda%E7%9A%84%E5%8D%B8%E8%BD%BD%E5%92%8C%E5%8D%87%E7%BA%A7/">Cuda的卸载和升级</a></li>
+				
+				<li><a href="https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/">菜鸡之路s</a></li>
+				
+			</ul>
+		</div>
+
+		
+
+		<p class="copyright">&copy; 2020. All rights reserved. </p>
+		<p class="attr">Powered by <a href="http://gohugo.io">Hugo</a> &amp; <a href="https://github.com/ExchangeRate-API/strange-case">Strange Case</a> (inspired by <a href="https://github.com/poole/hyde">Hyde</a>).</p>
+
+	</div>
+
+
+			</div>
+			<div class="col-sm-7 col-sm-offset-4 col-md-6 col-md-offset-3 col-lg-5 col-lg-offset-3 content">
+
+				<div class="post">
+
+					<div class="post-heading">
+						<h1>Cuda的卸载和升级</h1>
+						<span class="post-date"><a href="https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/cuda%E7%9A%84%E5%8D%B8%E8%BD%BD%E5%92%8C%E5%8D%87%E7%BA%A7/"># Sep 13, 2020</a></span>
+					</div>
+
+					<h2 id="背景">背景</h2>
+<p>学长给布置任务，叫我把实验室里某台ubuntu16.04的cuda从9.0升级成10.01， 对应的cudnn和drivers都给整配套， 于是开始了这个不太难却颇为纠结的工作，全程大约花费一个上午加一个晚上
+官网是文档步骤什么的其实挺清晰的，坑也不少，在此记录</p>
+<h2 id="常规操作">常规操作</h2>
+<ol>
+<li>检查各种前置准备，官网文档这一块说的很清楚，就是看内核版本、看gcc版本什么之类的，基本没问题</li>
+<li>内核需要注意的一点是，可能计算机在你不知道的时候有多个内核， 进入<code>/boot</code>文件夹可以看到，然后移除多余版本的内核&lt;-<a href="https://zhuanlan.zhihu.com/p/50033643">参考</a></li>
+<li>移除原有的驱动和cuda
+<a href="https://blog.csdn.net/wanzhen4330/article/details/81704474">cuda和cudnn的卸载</a>
+<a href="https://blog.csdn.net/ezhchai/article/details/80536949">drivers的卸载</a></li>
+<li>有尝试在安装cuda的同时安装驱动然后惨烈报错，看大量blog似乎都是先安装驱动然后安装cuda，遂尝试</li>
+<li>驱动安装<a href="https://zhuanlan.zhihu.com/p/143429249">参考</a></li>
+<li>cuda安装，我这里采用的是run安装包，输入<a href="https://developer.nvidia.com/cuda-toolkit-archive">官网</a>显示的安装命令，由于提前装好了drivers， 所以在选择组件的时候去掉driver</li>
+<li><a href="https://zhuanlan.zhihu.com/p/143429249">配置环境变量、并通过sample检查cuda是否正常安装</a>(看到Result = PASS的时候我一定哭了，呜呜呜呜)</li>
+<li>然后需要安装cudnn，注意<a href="https://blog.csdn.net/qq_27825451/article/details/89082978">版本之间的匹配</a>
+（9. 到cudnn官网下载， 下载需要注册账号（注册账号这个事情就很麻烦……而且似乎对outlook邮箱不太友好？），注意三个文件都需要下载，并安装</li>
+<li>测试cudnn的安装情况， 得到“Test Passed”,快乐！）
+9.[下载cudnn的library包， 并使得cuda包含它] (<a href="https://www.jianshu.com/p/e22866b72f43">https://www.jianshu.com/p/e22866b72f43</a>)</li>
+</ol>
+
+
+				</div>
+
+			</div>
+			<div class="col-sm-1 col-md-3 col-md-4">
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://yaxun-yang.github.io/js/bootstrap.min.js"></script>
+
+</body>
+</html>
