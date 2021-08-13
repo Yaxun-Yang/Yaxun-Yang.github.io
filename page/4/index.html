@@ -46,22 +46,22 @@
 			<p>Recent Posts:</p>
 			<ul>
 				
-				<li><a href="https://yaxun-yang.github.io/%E8%BF%B7%E6%83%91%E8%A1%8C%E4%B8%BA/%E5%90%91%E8%A1%A8%E7%99%BD%E5%A2%99%E5%AE%89%E5%88%A9%E5%8F%AF%E7%88%B1%E7%9A%84%E5%B9%B3%E5%B9%B3/">向表白墙安利可爱的平平</a></li>
+				<li><a href="https://yaxun-yang.github.io/%E6%B5%81%E6%B0%B4%E8%B4%A6/2021.8.4/">2021.8</a></li>
 				
-				<li><a href="https://yaxun-yang.github.io/%E8%BF%B7%E6%83%91%E8%A1%8C%E4%B8%BA/">迷惑行为s</a></li>
+				<li><a href="https://yaxun-yang.github.io/%E6%B5%81%E6%B0%B4%E8%B4%A6/">流水账s</a></li>
 				
 				<li><a href="https://yaxun-yang.github.io/">阳某人每天都在干些啥？？？</a></li>
 				
-				<li><a href="https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/cuda%E7%9A%84%E5%8D%B8%E8%BD%BD%E5%92%8C%E5%8D%87%E7%BA%A7/">Cuda的卸载和升级</a></li>
+				<li><a href="https://yaxun-yang.github.io/%E6%B5%81%E6%B0%B4%E8%B4%A6/2021.8.9/">2021.8.9</a></li>
 				
-				<li><a href="https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/">菜鸡之路s</a></li>
+				<li><a href="https://yaxun-yang.github.io/%E8%BF%B7%E6%83%91%E8%A1%8C%E4%B8%BA/%E5%90%91%E8%A1%A8%E7%99%BD%E5%A2%99%E5%AE%89%E5%88%A9%E5%8F%AF%E7%88%B1%E7%9A%84%E5%B9%B3%E5%B9%B3/">向表白墙安利可爱的平平</a></li>
 				
 			</ul>
 		</div>
 
 		
 
-		<p class="copyright">&copy; 2020. All rights reserved. </p>
+		<p class="copyright">&copy; 2021. All rights reserved. </p>
 		<p class="attr">Powered by <a href="http://gohugo.io">Hugo</a> &amp; <a href="https://github.com/ExchangeRate-API/strange-case">Strange Case</a> (inspired by <a href="https://github.com/poole/hyde">Hyde</a>).</p>
 
 	</div>
@@ -70,6 +70,51 @@
 			</div>
 			<div class="col-sm-7 col-sm-offset-4 col-md-6 col-md-offset-3 col-lg-5 col-lg-offset-3 content">
 
+				
+				<div class="post">
+
+					<div class="post-heading">
+						<h1><a href="https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Baop/">SpringMVC学习之AOP</a></h1>
+						<span>Apr 3, 2020</span>
+					</div>
+
+					<p>铁哥有稍微讲过，但是没具体，感觉是个好东西，那就学吧~
+具体代码还是在项目里，这里放些mark和乱七八糟的理解</p>
+<h2 id="mark一些没看懂的blog之后回来看">Mark一些没看懂的blog，之后回来看</h2>
+<ul>
+<li>[AOP注解式拦截与方法规则拦截]（https://blog.csdn.net/xywnrf/article/details/81042728）</li>
+</ul>
+<h2 id="一些知识点">一些知识点</h2>
+<ul>
+<li>AOP只适用于protected类和public类</li>
+</ul>
+
+
+				</div>
+				
+				<div class="post">
+
+					<div class="post-heading">
+						<h1><a href="https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bsession%E5%92%8Cmodel/">SpringMVC学习之session和model</a></h1>
+						<span>Apr 2, 2020</span>
+					</div>
+
+					<h2 id="情景描述">情景描述</h2>
+<p>在写鸟店的项目中，在多个页面需要用到account的信息，在myPetStore1.0里，使用session实现account长时间缓存。在SpringMVC中则不推荐使用account ， 铁哥有告诉我们用到“@SessionAttributes”标签和其它几个类似标签，但是并未具体说明，在做了一些实验，看了一些资料之后，写下我的理解。</p>
+<h2 id="理解">理解</h2>
+<p>@SessionAttributes（value={&ldquo;att1&rdquo;,&ldquo;att2&rdquo;,&ldquo;att3&rdquo;},types={Class1.class,Class2.class}）：用于类，被value注释了名字的属性和被types注解了类型的属性将会在被加入model之后被自动加入session。取两种集合的并集。
+需要特别注意的是，加入session的操作，大约是在整个被调用方法执行之后，具体表现为：</p>
+<pre><code>model.addAttribute(&quot;account&quot;,account);
+System.out.println(httpServletRequest.getSession().getAttribute(&quot;account&quot;));
+----
+null
+</code></pre><p>这样随后从session中取值，取到的实际上是空值</p>
+<p>通过 SessionStatus的setComplete()方法可以清空SessionAttribute中的数据</p>
+<p>@ModelAttribute(&ldquo;att&rdquo;)：用在方法，意义是使得方法中的被注释的属性自动加入model</p>
+<p>@SessionAttribute（value=&quot;att&rdquo;）： 用在属性，访问预先存在的全局会话属性，可使得被注释的属性被注入存在SessionAttribute中的值</p>
+
+
+				</div>
 				
 				<div class="post">
 
@@ -114,67 +159,6 @@
 <p>这个错误倒不是我出的，凌晨接到小伙伴的求救消息，说是跟着视频来，但是程序出错无法运行，远程通过QQ控屏，一通折腾，发现是maven资源包未导入，资源目录下仅有JDK的包，windows toos下也没有Maven选项，遂百度。</p>
 <h2 id="解决方案">解决方案</h2>
 <p>File-&gt;Setting-&gt;Plugins-&gt;勾选Maven</p>
-
-
-				</div>
-				
-				<div class="post">
-
-					<div class="post-heading">
-						<h1><a href="https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E4%B8%80%E4%BA%9B%E7%8E%B0%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98/">一些现象和问题</a></h1>
-						<span>Mar 14, 2020</span>
-					</div>
-
-					<ol>
-<li>
-<p>使用FDM下载的时候，同时下载多个软件，并设置优先级，那么优先级底的后加入的下载速度快，先加入的优先级高的下载速度反而慢，并且下载少数几个文件时，下载速度慢。（改用aria2了，这个问题不管啦）</p>
-</li>
-<li>
-<p>在家里网速实在过慢了，怀疑被占用了宽带或者是因为win10不停的在下载更新？</p>
-</li>
-</ol>
-
-
-				</div>
-				
-				<div class="post">
-
-					<div class="post-heading">
-						<h1><a href="https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/">Win10软件推荐</a></h1>
-						<span>Mar 13, 2020</span>
-					</div>
-
-					<h1 id="前言">前言</h1>
-<p>  说实话作为一只码猿，用win10作为主要环境，我是愧疚的，但毕竟菜嘛……而且用都用了还是努力提高一下工作效率吧，记录一下长期看各种推荐并被种草，实测好用的各种win10软件。本人有一定洁癖+颜控+穷，喜欢干净漂亮简介的页面只能用得起开源或者免费个人版，应该算主流审美吧，作为码猿，不排斥甚至会比较喜欢繁琐的配置，复杂的操作什么的，读者需慎。
-  <strong>加粗代表正在使用的</strong>
-  不全是推荐，也有排雷和吐槽，由于懒，电脑上的软件估计并不会写全，就想写啥写啥啦，哈哈哈哈……
-  嗯，作为一篇推荐帖，虽然估计没人看，但还是会尽量考虑读者体验哒~</p>
-<h1 id="系统基础管理类">系统基础管理类</h1>
-<h2 id="卸载工具">卸载工具</h2>
-<p><strong>Geek Uninstaller</strong></p>
-<p>深而快的扫描，其实是我入手的第一款卸载工具，反正比系统自带好。
-专业且免费。
-即开即用，好东西，我爱它！</p>
-<h2 id="下载软件">下载软件</h2>
-<ol>
-<li>
-<p>迅雷
-讲道理，非专业用途的话，迅雷其实挺好的，速度够快，配置够简单，我用了很长一段时间，基本满足需求，但是广告多，没事搞个弹窗，而且有越来越恶劣化的趋势，我觉得还是早点脱坑的好。</p>
-</li>
-<li>
-<p><strong>Free Download Manager(FDM)</strong>
-多线程，按后缀名管理下载路径，各种专业配置，免费开源。页面简介好看，缺点是要Chrome自动链接下载的话需要加载一个插件，找了半天没找到懒得搞了，每回都是复制链接打开软件新建项目，略有一点麻烦。</p>
-</li>
-<li>
-<p>Internet Download Manager(IDM)
-和上面的FDM差不多，似乎FDM是借鉴IDM的，这个不开源，但是付费的话体验应该比FDM好一些，我没试过，就单纯列出吧。</p>
-</li>
-</ol>
-<h1 id="资源管理软件">资源管理软件</h1>
-<ol>
-<li><strong>Clover</strong>
-给资源管理器加上类似于网页的标签，比较符合我的使用习惯。但是新建文件夹的时候对中文命名及其不友好，打算先用一段时间，不好用就卸了。</li>
-</ol>
 
 
 				</div>
@@ -269,7 +253,16 @@
         
     
     
-    <li class="page-item"><a class="page-link" href="/page/7/">7</a></li>
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/8/">8</a></li>
     
     
     <li class="page-item">
@@ -277,7 +270,7 @@
     </li>
     
     <li class="page-item">
-        <a href="/page/7/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/page/8/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>
