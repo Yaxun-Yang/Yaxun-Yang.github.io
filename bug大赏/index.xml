@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bug大赏s on 阳某人每天都在干些啥？？？</title>
+    <title>Bug大赏s on What&#39;s up, yyxunn?</title>
     <link>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/</link>
-    <description>Recent content in Bug大赏s on 阳某人每天都在干些啥？？？</description>
+    <description>Recent content in Bug大赏s on What&#39;s up, yyxunn?</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <copyright>yyx</copyright>
+    <managingEditor>yyxun@outlook.com (yyxunn)</managingEditor>
+    <webMaster>yyxun@outlook.com (yyxunn)</webMaster>
     <lastBuildDate>Tue, 08 Sep 2020 19:33:52 +0800</lastBuildDate>
     
 	<atom:link href="https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>WLAN驱动错误</title>
       <link>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/wlan%E9%A9%B1%E5%8A%A8%E9%94%99%E8%AF%AF/</link>
       <pubDate>Tue, 08 Sep 2020 19:33:52 +0800</pubDate>
-      
+      <author>yyxun@outlook.com (yyxunn)</author>
       <guid>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/wlan%E9%A9%B1%E5%8A%A8%E9%94%99%E8%AF%AF/</guid>
       <description>问题描述 win10右下角网络连接选项显示未连接，点开后发现只显示飞行模式开关，不显示wifi列表 问题排查步骤  打开 此电脑-》管理-》设备管理器-》网络适配器  检查是否有wireless相关驱动，似乎不同的电脑会出现驱动种类不同的情况，查阅的blog中出现多种不同的驱动，在这里贴出我的驱动  打开服务， 选中任意一项,输入小写的w，此时显示所有以w开头的服务，检查服务WAN AutoConfig是否处于自动启功类型且处于运行状态
   下载Rapr， 删除老旧驱动（可能是与老旧驱动发生了冲突）
@@ -27,7 +27,7 @@
       <title>Windows10 Npm 大量报错</title>
       <link>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99/</link>
       <pubDate>Wed, 17 Jun 2020 15:57:17 +0800</pubDate>
-      
+      <author>yyxun@outlook.com (yyxunn)</author>
       <guid>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99/</guid>
       <description>重装系统解决90%的电脑问题，那么重装npm就解决90%的前端前端环境问题啦 在win10中是这个路径：
 C:\Users\87911\AppData\Roaming 删除npm和npm-cache 然后重装全局需要的组件 万事大吉，yeah~</description>
@@ -37,11 +37,11 @@ C:\Users\87911\AppData\Roaming 删除npm和npm-cache 然后重装全局需要的
       <title>查看占用端口pid并关闭该进程</title>
       <link>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/%E6%9F%A5%E7%9C%8B%E5%8D%A0%E7%94%A8%E7%AB%AF%E5%8F%A3pid%E5%B9%B6%E5%85%B3%E9%97%AD%E8%AF%A5%E8%BF%9B%E7%A8%8B/</link>
       <pubDate>Wed, 12 Feb 2020 22:28:40 +0800</pubDate>
-      
+      <author>yyxun@outlook.com (yyxunn)</author>
       <guid>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/%E6%9F%A5%E7%9C%8B%E5%8D%A0%E7%94%A8%E7%AB%AF%E5%8F%A3pid%E5%B9%B6%E5%85%B3%E9%97%AD%E8%AF%A5%E8%BF%9B%E7%A8%8B/</guid>
       <description>问题情景  有时候IDE运行c或者c++程序的时候，会出现如下报错：  error: id returned 1 exit status 可能是因为上一次运行的exe文件没有关闭彻底，此时需要通过查询正在运行的程序关闭 2. 使用tomcat运行web项目的时候发现默认的8080端口被占用
 复杂版 查看占用进程的具体应用：
-	tasklist|findstr &amp;quot;XXXXX&amp;quot; 简单版 管理员权限进入cmd,并输入：
+tasklist|findstr &amp;#34;XXXXX&amp;#34; 简单版 管理员权限进入cmd,并输入：
 taskkill -IM XXX.exe /F 查看当前所有运行中任务可输入：
 tasklist </description>
     </item>

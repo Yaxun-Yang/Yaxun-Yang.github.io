@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>流氓软件 on 阳某人每天都在干些啥？？？</title>
+    <title>流氓软件 on What&#39;s up, yyxunn?</title>
     <link>https://yaxun-yang.github.io/tags/%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6/</link>
-    <description>Recent content in 流氓软件 on 阳某人每天都在干些啥？？？</description>
+    <description>Recent content in 流氓软件 on What&#39;s up, yyxunn?</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <copyright>yyx</copyright>
+    <managingEditor>yyxun@outlook.com (yyxunn)</managingEditor>
+    <webMaster>yyxun@outlook.com (yyxunn)</webMaster>
     <lastBuildDate>Fri, 14 Feb 2020 19:26:22 +0800</lastBuildDate>
     
 	<atom:link href="https://yaxun-yang.github.io/tags/%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Win10如何关闭Flash助手</title>
       <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADflash%E5%8A%A9%E6%89%8B/</link>
       <pubDate>Fri, 14 Feb 2020 19:26:22 +0800</pubDate>
-      
+      <author>yyxun@outlook.com (yyxunn)</author>
       <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADflash%E5%8A%A9%E6%89%8B/</guid>
       <description> 运行窗口中输入命令services.msc 进入服务程序 选择特定服务组件 打开属性配置 启动类型改为禁用 停止服务 删除 Flash service helper  </description>
     </item>

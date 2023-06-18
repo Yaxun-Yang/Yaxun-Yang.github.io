@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>备忘录 on 阳某人每天都在干些啥？？？</title>
+    <title>备忘录 on What&#39;s up, yyxunn?</title>
     <link>https://yaxun-yang.github.io/tags/%E5%A4%87%E5%BF%98%E5%BD%95/</link>
-    <description>Recent content in 备忘录 on 阳某人每天都在干些啥？？？</description>
+    <description>Recent content in 备忘录 on What&#39;s up, yyxunn?</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <copyright>yyx</copyright>
+    <managingEditor>yyxun@outlook.com (yyxunn)</managingEditor>
+    <webMaster>yyxun@outlook.com (yyxunn)</webMaster>
     <lastBuildDate>Sun, 22 Mar 2020 19:23:07 +0800</lastBuildDate>
     
 	<atom:link href="https://yaxun-yang.github.io/tags/%E5%A4%87%E5%BF%98%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +14,10 @@
     
     <item>
       <title>如何打开mySQL服务</title>
-      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80mysql%E6%9C%8D%E5%8A%A1/</link>
+      <link>https://yaxun-yang.github.io/digital-explorations/%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80mysql%E6%9C%8D%E5%8A%A1/</link>
       <pubDate>Sun, 22 Mar 2020 19:23:07 +0800</pubDate>
-      
-      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80mysql%E6%9C%8D%E5%8A%A1/</guid>
+      <author>yyxun@outlook.com (yyxunn)</author>
+      <guid>https://yaxun-yang.github.io/digital-explorations/%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80mysql%E6%9C%8D%E5%8A%A1/</guid>
       <description>背景 为了稍微挽救一下win10电脑的内存，mySQL在日常使用电脑的过程中也不是有很高的使用频率，于是平常都是禁用mySQL的服务，来避免mySQL的自启动。结果长时间不用mySQL之后，一旦又要用，就开始懵逼，不知道如何打开服务，特意写下此备忘录。
 解决方案 管理员方式打开cmd-&amp;gt;输入net start mysql 如果出现
 发生系统错误5 那么是因为没有用管理员方式运行cmd
@@ -27,10 +27,10 @@
     
     <item>
       <title>一些现象和问题</title>
-      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E4%B8%80%E4%BA%9B%E7%8E%B0%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98/</link>
+      <link>https://yaxun-yang.github.io/digital-explorations/%E4%B8%80%E4%BA%9B%E7%8E%B0%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98/</link>
       <pubDate>Sat, 14 Mar 2020 00:15:41 +0800</pubDate>
-      
-      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E4%B8%80%E4%BA%9B%E7%8E%B0%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98/</guid>
+      <author>yyxun@outlook.com (yyxunn)</author>
+      <guid>https://yaxun-yang.github.io/digital-explorations/%E4%B8%80%E4%BA%9B%E7%8E%B0%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98/</guid>
       <description>  使用FDM下载的时候，同时下载多个软件，并设置优先级，那么优先级底的后加入的下载速度快，先加入的优先级高的下载速度反而慢，并且下载少数几个文件时，下载速度慢。（改用aria2了，这个问题不管啦）
   在家里网速实在过慢了，怀疑被占用了宽带或者是因为win10不停的在下载更新？
   </description>
@@ -40,11 +40,11 @@
       <title>查看占用端口pid并关闭该进程</title>
       <link>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/%E6%9F%A5%E7%9C%8B%E5%8D%A0%E7%94%A8%E7%AB%AF%E5%8F%A3pid%E5%B9%B6%E5%85%B3%E9%97%AD%E8%AF%A5%E8%BF%9B%E7%A8%8B/</link>
       <pubDate>Wed, 12 Feb 2020 22:28:40 +0800</pubDate>
-      
+      <author>yyxun@outlook.com (yyxunn)</author>
       <guid>https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/%E6%9F%A5%E7%9C%8B%E5%8D%A0%E7%94%A8%E7%AB%AF%E5%8F%A3pid%E5%B9%B6%E5%85%B3%E9%97%AD%E8%AF%A5%E8%BF%9B%E7%A8%8B/</guid>
       <description>问题情景  有时候IDE运行c或者c++程序的时候，会出现如下报错：  error: id returned 1 exit status 可能是因为上一次运行的exe文件没有关闭彻底，此时需要通过查询正在运行的程序关闭 2. 使用tomcat运行web项目的时候发现默认的8080端口被占用
 复杂版 查看占用进程的具体应用：
-	tasklist|findstr &amp;quot;XXXXX&amp;quot; 简单版 管理员权限进入cmd,并输入：
+tasklist|findstr &amp;#34;XXXXX&amp;#34; 简单版 管理员权限进入cmd,并输入：
 taskkill -IM XXX.exe /F 查看当前所有运行中任务可输入：
 tasklist </description>
     </item>
@@ -53,58 +53,23 @@ tasklist </description>
       <title>Navicat注册过期</title>
       <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/navicat%E6%B3%A8%E5%86%8C%E8%BF%87%E6%9C%9F/</link>
       <pubDate>Wed, 12 Feb 2020 22:11:29 +0800</pubDate>
-      
+      <author>yyxun@outlook.com (yyxunn)</author>
       <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/navicat%E6%B3%A8%E5%86%8C%E8%BF%87%E6%9C%9F/</guid>
       <description>长时间解决方案 下载软件Navicat Keygen
 短时间解决方案  关闭Navicat程序 键盘按 win + R， 输入 regedit 调出 Windows 系统注册表。 删除 HKEY_CURRENT_USER\SOFTWARE\PremiumSoft\Data: 展开 HKEY-CURRENT_USER\SOFRWARE\Classes\CLSID，然后展开每一个子文件夹查看，如果里面只包含一个info文件夹，就删掉它  ps: 所有 CAFEEFAC 开头的文件夹不需要检查（没有 info）</description>
     </item>
     
     <item>
-      <title>注册新的dll文件</title>
-      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E6%B3%A8%E5%86%8C%E6%96%B0%E7%9A%84dll%E6%96%87%E4%BB%B6/</link>
-      <pubDate>Wed, 12 Feb 2020 22:09:00 +0800</pubDate>
-      
-      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/%E6%B3%A8%E5%86%8C%E6%96%B0%E7%9A%84dll%E6%96%87%E4%BB%B6/</guid>
-      <description>win+R打开运行后：
-regsvr32 xxxxx.dll</description>
-    </item>
-    
-    <item>
       <title>Win10专业版过期</title>
       <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E4%B8%93%E4%B8%9A%E7%89%88%E8%BF%87%E6%9C%9F/</link>
       <pubDate>Wed, 12 Feb 2020 18:43:59 +0800</pubDate>
-      
+      <author>yyxun@outlook.com (yyxunn)</author>
       <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E4%B8%93%E4%B8%9A%E7%89%88%E8%BF%87%E6%9C%9F/</guid>
       <description>重要 ！！！一定要记得关闭病毒防护
 火绒、联想管家都要关掉！！！
 之前加入信任区的文件，虽然同名但是文件不同就还是需要再加入一次
 下载地址 下载地址 这个软件经常莫名其妙就不见了emmm
 查看过期时间 运行 KMPspico 程序 查看是否激活 </description>
-    </item>
-    
-    <item>
-      <title>Markdown用法</title>
-      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/markdown%E7%94%A8%E6%B3%95/</link>
-      <pubDate>Wed, 29 Jan 2020 08:29:13 +0800</pubDate>
-      
-      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/markdown%E7%94%A8%E6%B3%95/</guid>
-      <description>备忘系列之一，用于记录一些我常用常忘的markdown语法。
- 教程   W3Cschool 菜鸟教程 插入图片的方法 表情大全:joy:    注意  代表分割线的---与正文内容之间需要空行，否则会导致正文内容标题化   常用语法  段首空格  &amp;amp;ensp;&amp;amp;ensp;半角 空格 &amp;amp;emsp;emsp;全角空格 空格 &amp;amp;nbsp;&amp;amp;nbsp;非断行 空格
- 倾斜文字  	*需要倾斜的文字* 需要倾斜的文字
- 加粗文字  	**需要加粗的文字** 需要加粗的文字
- 斜体加粗  	***需要加粗且倾斜的文字*** 需要加粗且倾斜的文字
- 删除线  	~~需要划删除线的文字~~ 需要划删除线的文字
- 代码段，使用反引号(为转义添加小括号)  	(```) coding here and here (```) 	coding here and here  夹杂在文字之间的代码，同样是反引号  	在这段文字之间应该有个`code`不是吗？ 在这段文字之间应该有个code不是吗？</description>
-    </item>
-    
-    <item>
-      <title>Git用法</title>
-      <link>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/git%E7%94%A8%E6%B3%95/</link>
-      <pubDate>Wed, 29 Jan 2020 08:27:49 +0800</pubDate>
-      
-      <guid>https://yaxun-yang.github.io/%E8%8F%9C%E9%B8%A1%E4%B9%8B%E8%B7%AF/git%E7%94%A8%E6%B3%95/</guid>
-      <description>作为新手村玩家，不学 git 实在说不过去，奈何本人记性实在不好，顺手在这里把一些常用用法 mark 一下。小伙伴有推荐 git 的傻瓜式可视化工具Github Desktop，但是个人觉得不如命令行灵活好用，这里就单纯 mark 教程吧。
- 教程  廖雪峰 Github Desktop 一条龙初学者教程   still puzzle  git 子模块   常用命令  连接远程库   git remote add origin git@git.com:Yaxun-Yang/adversarial_examples_renderer.git  将(master)内容推到远程数据库   git push -u origin (master)  修改现有远程库  git remote set-url origin git@git.com:Yaxun-Yang/adversarial_examples_renderer.git  查看是否连接远程库  git remote -v  添加文件至缓存区  git add .  添加版本库(添加说明)   git commit (-m &amp;quot;*****&amp;quot;)  清空工作区（但保存现场可恢复）  git stash  查看缓存区修改内容（恢复现场）   git status  清空缓存区内容  git reset .</description>
     </item>
     
   </channel>

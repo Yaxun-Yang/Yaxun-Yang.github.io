@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>理解 on 阳某人每天都在干些啥？？？</title>
+    <title>理解 on What&#39;s up, yyxunn?</title>
     <link>https://yaxun-yang.github.io/tags/%E7%90%86%E8%A7%A3/</link>
-    <description>Recent content in 理解 on 阳某人每天都在干些啥？？？</description>
+    <description>Recent content in 理解 on What&#39;s up, yyxunn?</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <copyright>yyx</copyright>
+    <managingEditor>yyxun@outlook.com (yyxunn)</managingEditor>
+    <webMaster>yyxun@outlook.com (yyxunn)</webMaster>
     <lastBuildDate>Thu, 02 Apr 2020 21:25:23 +0800</lastBuildDate>
     
 	<atom:link href="https://yaxun-yang.github.io/tags/%E7%90%86%E8%A7%A3/index.xml" rel="self" type="application/rss+xml" />
@@ -14,13 +14,13 @@
     
     <item>
       <title>SpringMVC学习之session和model</title>
-      <link>https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bsession%E5%92%8Cmodel/</link>
+      <link>https://yaxun-yang.github.io/digital-explorations/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bsession%E5%92%8Cmodel/</link>
       <pubDate>Thu, 02 Apr 2020 21:25:23 +0800</pubDate>
-      
-      <guid>https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bsession%E5%92%8Cmodel/</guid>
+      <author>yyxun@outlook.com (yyxunn)</author>
+      <guid>https://yaxun-yang.github.io/digital-explorations/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bsession%E5%92%8Cmodel/</guid>
       <description>情景描述 在写鸟店的项目中，在多个页面需要用到account的信息，在myPetStore1.0里，使用session实现account长时间缓存。在SpringMVC中则不推荐使用account ， 铁哥有告诉我们用到“@SessionAttributes”标签和其它几个类似标签，但是并未具体说明，在做了一些实验，看了一些资料之后，写下我的理解。
 理解 @SessionAttributes（value={&amp;ldquo;att1&amp;rdquo;,&amp;ldquo;att2&amp;rdquo;,&amp;ldquo;att3&amp;rdquo;},types={Class1.class,Class2.class}）：用于类，被value注释了名字的属性和被types注解了类型的属性将会在被加入model之后被自动加入session。取两种集合的并集。 需要特别注意的是，加入session的操作，大约是在整个被调用方法执行之后，具体表现为：
-model.addAttribute(&amp;quot;account&amp;quot;,account); System.out.println(httpServletRequest.getSession().getAttribute(&amp;quot;account&amp;quot;)); ---- null 这样随后从session中取值，取到的实际上是空值
+model.addAttribute(&amp;#34;account&amp;#34;,account); System.out.println(httpServletRequest.getSession().getAttribute(&amp;#34;account&amp;#34;)); ---- null 这样随后从session中取值，取到的实际上是空值
 通过 SessionStatus的setComplete()方法可以清空SessionAttribute中的数据
 @ModelAttribute(&amp;ldquo;att&amp;rdquo;)：用在方法，意义是使得方法中的被注释的属性自动加入model
 @SessionAttribute（value=&amp;quot;att&amp;rdquo;）： 用在属性，访问预先存在的全局会话属性，可使得被注释的属性被注入存在SessionAttribute中的值</description>

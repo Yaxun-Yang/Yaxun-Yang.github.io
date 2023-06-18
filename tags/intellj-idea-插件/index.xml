@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>IntellJ IDEA 插件 on 阳某人每天都在干些啥？？？</title>
+    <title>IntellJ IDEA 插件 on What&#39;s up, yyxunn?</title>
     <link>https://yaxun-yang.github.io/tags/intellj-idea-%E6%8F%92%E4%BB%B6/</link>
-    <description>Recent content in IntellJ IDEA 插件 on 阳某人每天都在干些啥？？？</description>
+    <description>Recent content in IntellJ IDEA 插件 on What&#39;s up, yyxunn?</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <copyright>yyx</copyright>
+    <managingEditor>yyxun@outlook.com (yyxunn)</managingEditor>
+    <webMaster>yyxun@outlook.com (yyxunn)</webMaster>
     <lastBuildDate>Sun, 22 Mar 2020 09:56:06 +0800</lastBuildDate>
     
 	<atom:link href="https://yaxun-yang.github.io/tags/intellj-idea-%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +14,10 @@
     
     <item>
       <title>SpringMVC学习之IDEA未导入Maven插件</title>
-      <link>https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bidea%E6%9C%AA%E5%AF%BC%E5%85%A5maven%E6%8F%92%E4%BB%B6/</link>
+      <link>https://yaxun-yang.github.io/digital-explorations/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bidea%E6%9C%AA%E5%AF%BC%E5%85%A5maven%E6%8F%92%E4%BB%B6/</link>
       <pubDate>Sun, 22 Mar 2020 09:56:06 +0800</pubDate>
-      
-      <guid>https://yaxun-yang.github.io/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bidea%E6%9C%AA%E5%AF%BC%E5%85%A5maven%E6%8F%92%E4%BB%B6/</guid>
+      <author>yyxun@outlook.com (yyxunn)</author>
+      <guid>https://yaxun-yang.github.io/digital-explorations/java-web/springmvc%E5%AD%A6%E4%B9%A0%E4%B9%8Bidea%E6%9C%AA%E5%AF%BC%E5%85%A5maven%E6%8F%92%E4%BB%B6/</guid>
       <description>背景 这个错误倒不是我出的，凌晨接到小伙伴的求救消息，说是跟着视频来，但是程序出错无法运行，远程通过QQ控屏，一通折腾，发现是maven资源包未导入，资源目录下仅有JDK的包，windows toos下也没有Maven选项，遂百度。
 解决方案 File-&amp;gt;Setting-&amp;gt;Plugins-&amp;gt;勾选Maven</description>
     </item>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>因为贫穷s on 阳某人每天都在干些啥？？？</title>
+    <title>因为贫穷s on What&#39;s up, yyxunn?</title>
     <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/</link>
-    <description>Recent content in 因为贫穷s on 阳某人每天都在干些啥？？？</description>
+    <description>Recent content in 因为贫穷s on What&#39;s up, yyxunn?</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <copyright>yyx</copyright>
+    <managingEditor>yyxun@outlook.com (yyxunn)</managingEditor>
+    <webMaster>yyxun@outlook.com (yyxunn)</webMaster>
     <lastBuildDate>Mon, 10 Aug 2020 22:38:26 +0800</lastBuildDate>
     
 	<atom:link href="https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Adoble Acrobat Pro DC 破解</title>
       <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/adoble-acrobat-pro-dc-%E7%A0%B4%E8%A7%A3/</link>
       <pubDate>Mon, 10 Aug 2020 22:38:26 +0800</pubDate>
-      
+      <author>yyxun@outlook.com (yyxunn)</author>
       <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/adoble-acrobat-pro-dc-%E7%A0%B4%E8%A7%A3/</guid>
       <description> 自行下载adoble acrobat pro DC注意修改默认下载路径 将路径Acrobat DC/Acrobat/amtlib.dll替换为网盘中分享的文件 网盘地址： 链接：https://pan.baidu.com/s/1Ya4-yG0V62SsRDS-gQww7Q 提取码：ho27  </description>
     </item>
@@ -25,7 +25,7 @@
       <title>Win10软件推荐</title>
       <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
       <pubDate>Fri, 13 Mar 2020 20:46:42 +0800</pubDate>
-      
+      <author>yyxun@outlook.com (yyxunn)</author>
       <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</guid>
       <description>前言  说实话作为一只码猿，用win10作为主要环境，我是愧疚的，但毕竟菜嘛……而且用都用了还是努力提高一下工作效率吧，记录一下长期看各种推荐并被种草，实测好用的各种win10软件。本人有一定洁癖+颜控+穷，喜欢干净漂亮简介的页面只能用得起开源或者免费个人版，应该算主流审美吧，作为码猿，不排斥甚至会比较喜欢繁琐的配置，复杂的操作什么的，读者需慎。 加粗代表正在使用的 不全是推荐，也有排雷和吐槽，由于懒，电脑上的软件估计并不会写全，就想写啥写啥啦，哈哈哈哈…… 嗯，作为一篇推荐帖，虽然估计没人看，但还是会尽量考虑读者体验哒~
 系统基础管理类 卸载工具 Geek Uninstaller
@@ -37,19 +37,10 @@
     </item>
     
     <item>
-      <title>Keepass学习笔记</title>
-      <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/keepass%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Mon, 24 Feb 2020 21:40:25 +0800</pubDate>
-      
-      <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/keepass%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Win10如何关闭Flash助手</title>
       <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADflash%E5%8A%A9%E6%89%8B/</link>
       <pubDate>Fri, 14 Feb 2020 19:26:22 +0800</pubDate>
-      
+      <author>yyxun@outlook.com (yyxunn)</author>
       <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADflash%E5%8A%A9%E6%89%8B/</guid>
       <description> 运行窗口中输入命令services.msc 进入服务程序 选择特定服务组件 打开属性配置 启动类型改为禁用 停止服务 删除 Flash service helper  </description>
     </item>
@@ -58,7 +49,7 @@
       <title>Navicat注册过期</title>
       <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/navicat%E6%B3%A8%E5%86%8C%E8%BF%87%E6%9C%9F/</link>
       <pubDate>Wed, 12 Feb 2020 22:11:29 +0800</pubDate>
-      
+      <author>yyxun@outlook.com (yyxunn)</author>
       <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/navicat%E6%B3%A8%E5%86%8C%E8%BF%87%E6%9C%9F/</guid>
       <description>长时间解决方案 下载软件Navicat Keygen
 短时间解决方案  关闭Navicat程序 键盘按 win + R， 输入 regedit 调出 Windows 系统注册表。 删除 HKEY_CURRENT_USER\SOFTWARE\PremiumSoft\Data: 展开 HKEY-CURRENT_USER\SOFRWARE\Classes\CLSID，然后展开每一个子文件夹查看，如果里面只包含一个info文件夹，就删掉它  ps: 所有 CAFEEFAC 开头的文件夹不需要检查（没有 info）</description>
@@ -68,7 +59,7 @@
       <title>Win10专业版过期</title>
       <link>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E4%B8%93%E4%B8%9A%E7%89%88%E8%BF%87%E6%9C%9F/</link>
       <pubDate>Wed, 12 Feb 2020 18:43:59 +0800</pubDate>
-      
+      <author>yyxun@outlook.com (yyxunn)</author>
       <guid>https://yaxun-yang.github.io/%E5%9B%A0%E4%B8%BA%E8%B4%AB%E7%A9%B7/win10%E4%B8%93%E4%B8%9A%E7%89%88%E8%BF%87%E6%9C%9F/</guid>
       <description>重要 ！！！一定要记得关闭病毒防护
 火绒、联想管家都要关掉！！！

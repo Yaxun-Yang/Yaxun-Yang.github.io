@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on What&#39;s up, yyxunn?</title>
+    <link>https://yaxun-yang.github.io/page/</link>
+    <description>Recent content in Pages on What&#39;s up, yyxunn?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>yyxun@outlook.com (yyxunn)</managingEditor>
+    <webMaster>yyxun@outlook.com (yyxunn)</webMaster>
+    
+	<atom:link href="https://yaxun-yang.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About me</title>
+      <link>https://yaxun-yang.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yyxun@outlook.com (yyxunn)</author>
+      <guid>https://yaxun-yang.github.io/page/about/</guid>
+      <description>I have always struggled with how to introduce myself, constantly feeling confused by the question, &amp;ldquo;What kind of person am I?&amp;rdquo; This uncertainty has also extended to two other profound inquiries: &amp;ldquo;What kind of person do I aspire to be?&amp;rdquo; and &amp;ldquo;What truly constitutes the real world?&amp;rdquo; It&amp;rsquo;s possible that I will be entangled in these three questions for the rest of my life. There&amp;rsquo;s a Chinese proverb, &amp;ldquo;朝闻道，夕可死矣,&amp;rdquo; which holds two interpretations.</description>
+    </item>
+    
+  </channel>
+</rss>

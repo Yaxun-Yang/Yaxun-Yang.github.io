@@ -1,97 +1,462 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="generator" content="Hugo 0.62.2" />
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>Windows10 Npm 大量报错 - </title>
+
+  <meta name="description" content="重装系统解决90%的电脑问题，那么重装npm就解决90%的前端前端环境问题啦 在win10中是这个路径：
+C:\Users\87911\AppData\Roaming 删除npm和npm-cache 然后重装全局需要的组件 万事大吉，yeah~">
+  <meta name="author" content="yyxunn"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "What\x27s up, yyxunn?",
+    
+    "url": "https:\/\/yaxun-yang.github.io"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/yaxun-yang.github.io"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/yaxun-yang.github.io",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/yaxun-yang.github.io\/bug%E5%A4%A7%E8%B5%8F\/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99\/",
+          "name": "Windows10 npm 大量报错"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "yyxunn"
+  },
+  "headline": "Windows10 Npm 大量报错",
+  "description" : "重装系统解决90%的电脑问题，那么重装npm就解决90%的前端前端环境问题啦 在win10中是这个路径：\nC:\\Users\\87911\\AppData\\Roaming 删除npm和npm-cache 然后重装全局需要的组件 万事大吉，yeah~",
+  "inLanguage" : "en",
+  "wordCount":  6 ,
+  "datePublished" : "2020-06-17T15:57:17",
+  "dateModified" : "2020-06-17T15:57:17",
+  "image" : "https:\/\/yaxun-yang.github.io\/img\/avatar-icon.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "https:\/\/yaxun-yang.github.io\/bug%E5%A4%A7%E8%B5%8F\/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/yaxun-yang.github.io",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/yaxun-yang.github.io\/img\/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Windows10 Npm 大量报错" />
+<meta property="og:description" content="重装系统解决90%的电脑问题，那么重装npm就解决90%的前端前端环境问题啦 在win10中是这个路径：
+C:\Users\87911\AppData\Roaming 删除npm和npm-cache 然后重装全局需要的组件 万事大吉，yeah~">
+<meta property="og:image" content="https://yaxun-yang.github.io/img/avatar-icon.png" />
+<meta property="og:url" content="https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="What&#39;s up, yyxunn?" />
+
+  <meta name="twitter:title" content="Windows10 Npm 大量报错" />
+  <meta name="twitter:description" content="重装系统解决90%的电脑问题，那么重装npm就解决90%的前端前端环境问题啦 在win10中是这个路径：
+C:\Users\87911\AppData\Roaming 删除npm和npm-cache 然后重装全局需要的组件 万事大吉，yeah~">
+  <meta name="twitter:image" content="https://yaxun-yang.github.io/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='https://yaxun-yang.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.68.3" />
+  <link rel="alternate" href="https://yaxun-yang.github.io/index.xml" type="application/rss+xml" title="What&#39;s up, yyxunn?"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://yaxun-yang.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://yaxun-yang.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://yaxun-yang.github.io/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'G-7X40LJPDE1', 'auto');
 	
-	<title>Windows10 Npm 大量报错 - </title>
+	ga('send', 'pageview');
+}
+</script>
 
-	
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-	<link href="https://yaxun-yang.github.io/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://yaxun-yang.github.io/css/strange-case.css" rel="stylesheet">
-	
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://yaxun-yang.github.io">What&#39;s up, yyxunn?</a>
+    </div>
 
-	
-	
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Types</a>
+              <div class="navlinks-children">
+                
+                  <a href="/Memoir%20Musings">Memoir Musings</a>
+                
+                  <a href="/Reflections%20Unveiled">Reflections Unveiled</a>
+                
+                  <a href="/Digital%20Explrations">Digital Explrations</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
 
-	
-	<link href="" rel="alternate" type="application/rss+xml" title="阳某人每天都在干些啥？？？" />
-</head>
-<body class="">
+        
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-4 col-md-3 col-lg-3 sidebar">
+        
+      </ul>
+    </div>
 
-			
-	<div class="sidebar-content">
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="What&#39;s up, yyxunn?" href="https://yaxun-yang.github.io">
+            <img class="avatar-img" src="https://yaxun-yang.github.io/img/avatar-icon.png" alt="What&#39;s up, yyxunn?" />
+          </a>
+        </div>
+      </div>
+    
 
-		<a href="https://yaxun-yang.github.io"><h1>阳某人每天都在干些啥？？？</h1></a>
-		<p></p>
-
-		
-
-		<ul class="sidebar-menus">
-			
-		</ul>
-
-		<div class="sidebar-recent hidden-xs">
-			<p>Recent Posts:</p>
-			<ul>
-				
-				<li><a href="https://yaxun-yang.github.io/%E8%BF%B7%E6%83%91%E8%A1%8C%E4%B8%BA/%E7%88%B9%E5%A6%88%E7%B3%8A%E5%BC%84%E9%9B%86%E5%90%88/">爹妈糊弄集合</a></li>
-				
-				<li><a href="https://yaxun-yang.github.io/%E8%BF%B7%E6%83%91%E8%A1%8C%E4%B8%BA/">迷惑行为s</a></li>
-				
-				<li><a href="https://yaxun-yang.github.io/">阳某人每天都在干些啥？？？</a></li>
-				
-				<li><a href="https://yaxun-yang.github.io/%E6%B5%81%E6%B0%B4%E8%B4%A6/2022.2.1/">2022.2</a></li>
-				
-				<li><a href="https://yaxun-yang.github.io/%E6%B5%81%E6%B0%B4%E8%B4%A6/">流水账s</a></li>
-				
-			</ul>
-		</div>
-
-		
-
-		<p class="copyright">&copy; 2022. All rights reserved. </p>
-		<p class="attr">Powered by <a href="http://gohugo.io">Hugo</a> &amp; <a href="https://github.com/ExchangeRate-API/strange-case">Strange Case</a> (inspired by <a href="https://github.com/poole/hyde">Hyde</a>).</p>
-
-	</div>
+  </div>
+</nav>
 
 
-			</div>
-			<div class="col-sm-7 col-sm-offset-4 col-md-6 col-md-offset-3 col-lg-5 col-lg-offset-3 content">
 
-				<div class="post">
 
-					<div class="post-heading">
-						<h1>Windows10 Npm 大量报错</h1>
-						<span class="post-date"><a href="https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99/"># Jun 17, 2020</a></span>
-					</div>
+    
 
-					<p>重装系统解决90%的电脑问题，那么重装npm就解决90%的前端前端环境问题啦
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="bug大赏-heading">
+              
+                <h1>Windows10 Npm 大量报错</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>重装系统解决90%的电脑问题，那么重装npm就解决90%的前端前端环境问题啦
 在win10中是这个路径：</p>
-<pre><code>C:\Users\87911\AppData\Roaming
-</code></pre><p>删除<code>npm</code>和<code>npm-cache</code>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">C:\Users\87911\AppData\Roaming
+</code></pre></div><p>删除<code>npm</code>和<code>npm-cache</code>
 然后重装全局需要的组件
 万事大吉，yeah~</p>
 
 
-				</div>
+        
 
-			</div>
-			<div class="col-sm-1 col-md-3 col-md-4">
-			</div>
-		</div>
-	</div>
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fyaxun-yang.github.io%2fbug%25E5%25A4%25A7%25E8%25B5%258F%2fwindows10-npm-%25E5%25A4%25A7%25E9%2587%258F%25E6%258A%25A5%25E9%2594%2599%2f&amp;text=Windows10%20Npm%20%e5%a4%a7%e9%87%8f%e6%8a%a5%e9%94%99&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fyaxun-yang.github.io%2fbug%25E5%25A4%25A7%25E8%25B5%258F%2fwindows10-npm-%25E5%25A4%25A7%25E9%2587%258F%25E6%258A%25A5%25E9%2594%2599%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fyaxun-yang.github.io%2fbug%25E5%25A4%25A7%25E8%25B5%258F%2fwindows10-npm-%25E5%25A4%25A7%25E9%2587%258F%25E6%258A%25A5%25E9%2594%2599%2f&amp;title=Windows10%20Npm%20%e5%a4%a7%e9%87%8f%e6%8a%a5%e9%94%99" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fyaxun-yang.github.io%2fbug%25E5%25A4%25A7%25E8%25B5%258F%2fwindows10-npm-%25E5%25A4%25A7%25E9%2587%258F%25E6%258A%25A5%25E9%2594%2599%2f&amp;title=Windows10%20Npm%20%e5%a4%a7%e9%87%8f%e6%8a%a5%e9%94%99" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fyaxun-yang.github.io%2fbug%25E5%25A4%25A7%25E8%25B5%258F%2fwindows10-npm-%25E5%25A4%25A7%25E9%2587%258F%25E6%258A%25A5%25E9%2594%2599%2f&amp;title=Windows10%20Npm%20%e5%a4%a7%e9%87%8f%e6%8a%a5%e9%94%99" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fyaxun-yang.github.io%2fbug%25E5%25A4%25A7%25E8%25B5%258F%2fwindows10-npm-%25E5%25A4%25A7%25E9%2587%258F%25E6%258A%25A5%25E9%2594%2599%2f&amp;description=Windows10%20Npm%20%e5%a4%a7%e9%87%8f%e6%8a%a5%e9%94%99" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/%E6%9F%A5%E7%9C%8B%E5%8D%A0%E7%94%A8%E7%AB%AF%E5%8F%A3pid%E5%B9%B6%E5%85%B3%E9%97%AD%E8%AF%A5%E8%BF%9B%E7%A8%8B/" data-toggle="tooltip" data-placement="top" title="查看占用端口pid并关闭该进程">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/wlan%E9%A9%B1%E5%8A%A8%E9%94%99%E8%AF%AF/" data-toggle="tooltip" data-placement="top" title="WLAN驱动错误">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+          
+          <div class="disqus-comments">                  
+            <button id="show-comments" class="btn btn-default" type="button">Show <span class="disqus-comment-count" data-disqus-url="https://yaxun-yang.github.io/bug%E5%A4%A7%E8%B5%8F/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99">comments</span></button>
+            <div id="disqus_thread"></div>
+
+            <script type="text/javascript">
+              var disqus_config = function () {
+              this.page.url = 'https:\/\/yaxun-yang.github.io\/bug%E5%A4%A7%E8%B5%8F\/windows10-npm-%E5%A4%A7%E9%87%8F%E6%8A%A5%E9%94%99';
+            };
+
+          </script>
+          </div>
+          
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="mailto:yyxun@outlook.com" title="Email me">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="https://yaxun-yang.github.io">yyxunn</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2020
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://yaxun-yang.github.io">What&#39;s up, yyxunn?</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.68.3</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://yaxun-yang.github.io/js/main.js"></script>
+<script src="https://yaxun-yang.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://yaxun-yang.github.io/js/load-photoswipe.js"></script>
 
 
 
@@ -99,9 +464,31 @@
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-<script src="https://yaxun-yang.github.io/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(function(){
+  $('#show-comments').on('click', function(){
+    var disqus_shortname = 'Comments';
+      
+    (function() {
+      var disqus = document.createElement('script'); 
+      disqus.type = 'text/javascript'; 
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+      
+    $(this).hide(); 
+    });
+  });
+      
+</script>
+<script id="dsq-count-scr" src="//Comments.disqus.com/count.js" async></script>
 
-</body>
+
+
+
+    
+  </body>
 </html>
+
